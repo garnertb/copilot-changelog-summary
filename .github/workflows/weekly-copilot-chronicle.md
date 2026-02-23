@@ -1,10 +1,12 @@
 ---
 description: Creates a weekly chronicle of interesting GitHub Copilot changes based on the GitHub Changelog and VS Code AI/Copilot updates
 on:
-  schedule:
-    - cron: "0 9 * * 1"  # 9 AM UTC Monday (weekly)
+  schedule: weekly on monday
   workflow_dispatch:
 permissions:
+  discussions: read
+  issues: read
+  pull-requests: read
   contents: read
 engine: copilot
 timeout-minutes: 30
