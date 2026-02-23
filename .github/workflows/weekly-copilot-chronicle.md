@@ -98,8 +98,6 @@ From this page, identify:
 
 Then fetch the release notes for the **latest Stable version**. The URL format is: `https://code.visualstudio.com/updates/v{major}_{minor}` (e.g., `https://code.visualstudio.com/updates/v1_98`).
 
-Also fetch the VS Code Copilot changelog at: `https://code.visualstudio.com/docs/copilot/copilot-changelog`
-
 ### What to Look For
 
 In the VS Code release notes, find sections related to:
