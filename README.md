@@ -4,7 +4,7 @@ A GitHub Agentic Workflow that automatically compiles a weekly digest of GitHub 
 
 ## What It Does
 
-Every Monday at 9 AM UTC, the `weekly-copilot-chronicle` workflow:
+Every Monday runs the `weekly-copilot-chronicle` workflow:
 
 1. **Scans the GitHub Changelog** ([github.blog/changelog](https://github.blog/changelog/)) for Copilot and AI-related updates from the past 7 days, including:
    - New features and capabilities
