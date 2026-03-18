@@ -23,20 +23,7 @@ This repository uses **GitHub Agentic Workflows (gh-aw)** to automate a weekly d
 - Validate without writing: `gh aw compile --validate`
 - Fix Dependabot PRs: `gh aw compile --dependabot` (never merge Dependabot PRs that touch generated manifests directly)
 
-## Markdown & Formatting Conventions
+## Version Pinning
 
-- In discussion bodies, use **h3–h5 headers only** (`###`, `####`, `#####`). Never use h1 or h2 — the discussion title provides the top-level heading.
-- Use GitHub blockquote callouts: `> [!NOTE]`, `> [!TIP]`, `> [!IMPORTANT]`, `> [!WARNING]`.
-- Use `<details>`/`<summary>` for collapsible sections when content is lengthy.
-- Embed screenshots or images from source material when changes are visual.
-- Write for **scannability first** — developers should be able to skim in 60 seconds.
-
-## Emoji Conventions
-
-- Discussion title prefix: `📰`
-- Section headers use fixed emoji: `✨` New Features, `⚠️` Deprecations, `🔌` API Changes, `🤖` Model Availability / IDE Parity, `📦` Stable Release, `🔬` Insiders, `📋` Also This Week.
-
-## Date Handling
-
-- Bash date commands must support both GNU (`date -d`) and macOS (`date -v`) syntax with fallback: `date -u -d "..." 2>/dev/null || date -u -v...`
-- The scan window is always Monday of the current week through today.
+- Always pin `gh-aw` to an explicit version in `copilot-setup-steps.yml` (both the action ref `github/gh-aw/actions/setup-cli@vX.Y.Z` and the `version` input must match).
+- When upgrading, update both values in lockstep and recompile all workflows with `gh aw compile`.
