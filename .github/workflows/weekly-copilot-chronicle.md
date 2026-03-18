@@ -82,10 +82,23 @@ Parse the RSS feed entries. For each entry, extract:
 - **Publication date** (pubDate)
 - **URL** (link)
 - **Description/summary**
-- **Categories** (if available)
+- **Categories** — each entry has two category types:
+  - `changelog-label` (e.g., `copilot`, `application security`, `account management`) — the primary topic tag
+  - `changelog-type` (e.g., `Improvement`, `Release`, `Retired`) — the change type
 
-**Filter for relevance**: Include entries whose title, description, or categories contain any of the following terms (case-insensitive):
-`copilot`, `AI model`, `LLM`, `GPT`, `Claude`, `Gemini`, `o1`, `o3`, `agent`, `MCP`, `Model Context Protocol`, `code completion`, `inline chat`, `extensions API`, `Copilot Chat`, `GitHub Models`
+### Filter for relevance
+
+Use a **two-tier filter** to decide which entries to include:
+
+**Tier 1 — Category match (auto-include):** If any `changelog-label` category is `copilot`, include the entry. This is the strongest signal and catches the majority of relevant entries.
+
+**Tier 2 — Keyword match (catch stragglers):** For entries that did NOT match Tier 1, scan the title, description, and categories for any of the following terms (case-insensitive). Include the entry if a match is found:
+
+- **Copilot products & features**: `Copilot Chat`, `Copilot Edits`, `Copilot Workspace`, `Copilot CLI`, `Copilot Extensions`, `Copilot Autofix`, `Copilot coding agent`, `Copilot code review`, `coding agent`, `agent mode`, `code completion`, `inline chat`, `code referencing`, `custom instructions`, `premium request`
+- **AI models**: `AI model`, `LLM`, `GPT`, `Claude`, `Gemini`, `Anthropic`, `OpenAI`, `o1-preview`, `o1-mini`, `o3-mini`, `o3-pro`, `o4-mini`
+- **AI platform & protocols**: `MCP`, `Model Context Protocol`, `GitHub Models`, `GitHub Spark`, `extensions API`
+
+**Edge case — omnibus releases (e.g., GHES):** Large umbrella entries like "GitHub Enterprise Server X.Y is now generally available" often mention Copilot features alongside dozens of unrelated changes. Do **not** include these as standalone entries. If they contain noteworthy Copilot-specific details not covered elsewhere, briefly reference them in the "Also This Week" section with a note that the Copilot feature shipped as part of a larger release.
 
 Categorize the relevant entries as:
 - **✨ New Features** – New capabilities, integrations, or tools
