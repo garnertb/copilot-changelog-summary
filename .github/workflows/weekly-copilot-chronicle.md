@@ -1,10 +1,10 @@
 ---
 description: Creates a weekly chronicle of interesting GitHub Copilot changes based on the GitHub Changelog and VS Code AI/Copilot updates
 on:
-  schedule: weekly on monday
+  schedule: daily
   workflow_dispatch:
 permissions:
-  discussions: read
+  discussions: write
   issues: read
   pull-requests: read
   contents: read
@@ -26,7 +26,7 @@ tools:
 safe-outputs:
   create-discussion:
     title-prefix: "📰 "
-    close-older-discussions: true
+    close-older-discussions: false
 ---
 
 # Weekly Copilot Changes
@@ -39,7 +39,7 @@ You write for **scannability first**. Developers should be able to skim the dige
 
 ## Your Mission
 
-Compile a weekly summary covering the **past 7 days** of GitHub Copilot-related changes from the following sources:
+Compile a weekly summary covering changes **since Monday of the current week** from the following sources:
 
 1. **GitHub Changelog** (`https://github.blog/changelog/`) – new features, deprecated features, API changes, and model availability changes
 2. **VS Code Updates** (`https://code.visualstudio.com/updates/`) – AI/Copilot-specific features from Insiders builds and the latest Stable release
@@ -48,21 +48,32 @@ Compile a weekly summary covering the **past 7 days** of GitHub Copilot-related 
 
 ## Step 1: Gather GitHub Changelog Data
 
-Fetch the GitHub Changelog RSS feed and filter for Copilot and AI-related entries from the past 7 days.
+Fetch the GitHub Changelog RSS feed and filter for Copilot and AI-related entries since Monday of the current week.
 
 First, compute and record the key dates you will use throughout the report:
 
 ```bash
 # Calculate date range and week boundaries
 TODAY=$(date -u +"%Y-%m-%d")
-WEEK_AGO=$(date -u -d "7 days ago" +"%Y-%m-%d" 2>/dev/null || date -u -v-7d +"%Y-%m-%d")
-# Monday of the current week (for the chronicle title)
-MONDAY=$(date -u -d "last monday" +"%B %-d, %Y" 2>/dev/null || date -u +"%B %-d, %Y")
-echo "Chronicle title date: $MONDAY"
-echo "Scanning GitHub Changelog from $WEEK_AGO to $TODAY"
+# Monday of the current week (scan start)
+DAY_OF_WEEK=$(date -u +%u) # 1=Monday, 7=Sunday
+if [ "$DAY_OF_WEEK" -eq 1 ]; then
+  MONDAY_DATE=$(date -u +"%Y-%m-%d")
+else
+  DAYS_SINCE_MONDAY=$((DAY_OF_WEEK - 1))
+  MONDAY_DATE=$(date -u -d "$DAYS_SINCE_MONDAY days ago" +"%Y-%m-%d" 2>/dev/null || date -u -v-${DAYS_SINCE_MONDAY}d +"%Y-%m-%d")
+fi
+# Sunday of the current week (scan end / title end date)
+DAYS_UNTIL_SUNDAY=$((7 - DAY_OF_WEEK))
+SUNDAY_DATE=$(date -u -d "$DAYS_UNTIL_SUNDAY days" +"%Y-%m-%d" 2>/dev/null || date -u -v+${DAYS_UNTIL_SUNDAY}d +"%Y-%m-%d")
+# Human-readable dates for the title
+WEEK_START_DATE=$(date -u -d "$MONDAY_DATE" +"%B %-d, %Y" 2>/dev/null || date -j -f "%Y-%m-%d" "$MONDAY_DATE" +"%B %-d, %Y")
+WEEK_END_DATE=$(date -u -d "$SUNDAY_DATE" +"%B %-d, %Y" 2>/dev/null || date -j -f "%Y-%m-%d" "$SUNDAY_DATE" +"%B %-d, %Y")
+echo "Chronicle week: $WEEK_START_DATE - $WEEK_END_DATE"
+echo "Scanning GitHub Changelog from $MONDAY_DATE to $TODAY"
 ```
 
-Use these computed values when filling in the `{MONDAY_DATE}` and `{TODAY}` placeholders in the discussion title and footer.
+Use these computed values when filling in the `{WEEK_START_DATE}`, `{WEEK_END_DATE}`, and `{TODAY}` placeholders in the discussion title and footer. The scan window is always **Monday of the current week through today**, regardless of which day the workflow runs.
 
 Use the `web-fetch` tool to retrieve: `https://github.blog/changelog/feed/`
 
@@ -117,14 +128,34 @@ For **Insiders**, note that these features are pre-release and subject to change
 
 ---
 
-## Step 3: Compile and Format the Summary
+## Step 3: Check for Existing Weekly Discussion
 
-Create a GitHub Discussion with the following structure.
+Before creating a new discussion, check if one already exists for the current week. This workflow may run multiple times per week (daily or via manual dispatch), and the same week's summary should be **updated in place** rather than duplicated.
+
+Use the GitHub `discussions` tool to search for an existing discussion in this repository whose title matches:
+
+```
+📰 Weekly Copilot Summary – {WEEK_START_DATE} - {WEEK_END_DATE}
+```
+
+(The `📰` prefix is added automatically by the safe-output tool when creating discussions, so include it when searching.)
+
+- **If a matching discussion is found**: You will update its body with the newly compiled summary in Step 4. Record the discussion number for later use.
+- **If no matching discussion is found**: You will create a new discussion in Step 4.
+
+---
+
+## Step 4: Compile and Publish the Summary
 
 Use h3 (`###`), h4 (`####`) and h5 (`#####`) headers only—never h1 or h2. The discussion title provides the top-level heading.
 
+Compose the summary body using the template below.
+
+- **If updating an existing discussion**: Use the GitHub `discussions` tool to update the discussion body with the newly compiled content. This replaces the entire body with the latest version of the weekly summary.
+- **If creating a new discussion**: Use the `create_discussion` safe-output tool with the title and body below.
+
 ```
-TITLE: Weekly Copilot Summary – Week of {MONDAY_DATE}
+TITLE: Weekly Copilot Summary – {WEEK_START_DATE} - {WEEK_END_DATE}
 
 BODY:
 ```
@@ -132,7 +163,7 @@ BODY:
 ### Report Structure
 
 ```markdown
-> 🤖 *Your weekly digest of GitHub Copilot and AI coding developments — automatically compiled every Monday.*
+> 🤖 *Your weekly digest of GitHub Copilot and AI coding developments — automatically compiled daily, grouped by week.*
 
 ---
 
@@ -209,7 +240,7 @@ BODY:
 
 ---
 
-*Sources: [GitHub Changelog](https://github.blog/changelog/) · [VS Code Updates](https://code.visualstudio.com/updates/) · Generated {TODAY}*
+*Sources: [GitHub Changelog](https://github.blog/changelog/) · [VS Code Updates](https://code.visualstudio.com/updates/) · Last updated {TODAY}*
 ```
 
 ---
