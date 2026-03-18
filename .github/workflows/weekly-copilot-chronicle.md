@@ -1,5 +1,5 @@
 ---
-description: Creates a weekly chronicle of interesting GitHub Copilot changes based on the GitHub Changelog and VS Code AI/Copilot updates
+description: Creates a weekly digest of interesting GitHub Copilot changes based on the GitHub Changelog and VS Code AI/Copilot updates
 on:
   schedule: every 6 hours on weekdays
   workflow_dispatch:
