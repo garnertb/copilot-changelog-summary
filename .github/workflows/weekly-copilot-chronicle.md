@@ -4,7 +4,7 @@ on:
   schedule: every 6 hours on weekdays
   workflow_dispatch:
 permissions:
-  discussions: write
+  discussions: read
   issues: read
   pull-requests: read
   contents: read
