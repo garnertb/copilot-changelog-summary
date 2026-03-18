@@ -16,6 +16,7 @@ network:
     - github.blog
     - code.visualstudio.com
 tools:
+  repo-memory:
   web-fetch:
   bash:
     - "*"
