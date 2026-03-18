@@ -293,7 +293,7 @@ BODY:
 - **Rich GitHub markdown**: Use the full range of GitHub-flavored markdown to make content clear and engaging:
   - **Code blocks** for new commands, settings, API snippets, or configuration examples
   - **`<details>`/`<summary>`** to collapse lengthy content (long feature lists, full API details, etc.)
-  - **Blockquote callouts** (`> [!NOTE]`, `> [!TIP]`, `> [!IMPORTANT]`, `> [!WARNING]`) to draw attention to key takeaways, action items, or breaking changes
+  - **Blockquote callouts** (`> [!NOTE]`, `> [!TIP]`, `> [!IMPORTANT]`, `> [!WARNING]`) to draw attention to key takeaways, action items, or breaking changes. **Critical**: GitHub only renders callout syntax when the `>` starts at column 0 with no leading whitespace. Never nest callouts inside list items or indented blocks — they will render as plain blockquotes. Instead, place callouts on their own line *after* the list item or paragraph they relate to, separated by a blank line.
   - **Tables** when comparing options, models, or before/after behavior
   - **Task lists** (`- [ ]`) for developer action items or migration checklists
 - **Screenshots and images**: When a change is visual (new UI, updated settings, workflow screenshots), embed images from the source blog posts or release notes using `![alt](url)`. This helps readers immediately see what changed without clicking through
