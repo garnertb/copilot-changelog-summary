@@ -32,6 +32,7 @@ safe-outputs:
     title-prefix: "📰 "
     close-older-discussions: true
   update-discussion:
+    target: "*"
 ---
 
 # Weekly Copilot Changes
