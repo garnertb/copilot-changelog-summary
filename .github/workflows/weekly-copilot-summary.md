@@ -9,7 +9,7 @@ permissions:
   pull-requests: read
   contents: read
 engine:
-  id: claude
+  id: copilot
   model: claude-opus-4
 timeout-minutes: 30
 tracker-id: "copilot-summary"
@@ -21,7 +21,6 @@ network:
 tools:
   repo-memory:
   web-fetch:
-  web-search:
   bash:
     - "*"
   github:
@@ -126,7 +125,7 @@ VS Code ships updates frequently:
 
 Use `web-fetch` to retrieve: `https://code.visualstudio.com/updates/`
 
-Also use `web-search` to search for recent VS Code Copilot announcements or blog posts that may not appear on the main updates page (e.g., search for "VS Code Copilot new features this week" or "VS Code AI update").
+Also use `web-fetch` to retrieve the VS Code blog RSS feed at `https://code.visualstudio.com/feed.xml` and scan for recent Copilot or AI-related posts that may not appear on the main updates page.
 
 From the updates page, identify:
 1. The **latest Stable release** version (e.g., "v1.98") and its release notes URL
