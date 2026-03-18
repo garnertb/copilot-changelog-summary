@@ -103,7 +103,7 @@ Use a **two-tier filter** to decide which entries to include:
 - **AI models**: `AI model`, `LLM`, `GPT`, `Claude`, `Gemini`, `Anthropic`, `OpenAI`, `o1-preview`, `o1-mini`, `o3-mini`, `o3-pro`, `o4-mini`
 - **AI platform & protocols**: `MCP`, `Model Context Protocol`, `GitHub Models`, `GitHub Spark`, `extensions API`
 
-**Edge case — omnibus releases (e.g., GHES):** Large umbrella entries like "GitHub Enterprise Server X.Y is now generally available" often mention Copilot features alongside dozens of unrelated changes. Do **not** include these as standalone entries. If they contain noteworthy Copilot-specific details not covered elsewhere, briefly reference them in the "Also This Week" section with a note that the Copilot feature shipped as part of a larger release.
+ **If an entry contains zero Copilot-specific details, omit it entirely.**
 
 Categorize the relevant entries as:
 - **✨ New Features** – New capabilities, integrations, or tools
