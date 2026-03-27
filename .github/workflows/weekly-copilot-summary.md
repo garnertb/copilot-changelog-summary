@@ -4,7 +4,6 @@ on:
   schedule: every 6 hours on weekdays
   workflow_dispatch:
 permissions:
-  discussions: read
   issues: read
   pull-requests: read
   contents: read
@@ -26,12 +25,11 @@ tools:
   github:
     toolsets:
       - default
-      - discussions
 safe-outputs:
-  create-discussion:
+  create-issue:
     title-prefix: "📰 "
-    close-older-discussions: true
-  update-discussion:
+    close-older-issues: true
+  update-issue:
     target: "*"
 ---
 
@@ -79,7 +77,7 @@ echo "Summary week: $WEEK_START_DATE - $WEEK_END_DATE"
 echo "Scanning GitHub Changelog from $MONDAY_DATE to $TODAY"
 ```
 
-Use these computed values when filling in the `{WEEK_START_DATE}`, `{WEEK_END_DATE}`, and `{TODAY}` placeholders in the discussion title and footer. The scan window is always **Monday of the current week through today**, regardless of which day the workflow runs.
+Use these computed values when filling in the `{WEEK_START_DATE}`, `{WEEK_END_DATE}`, and `{TODAY}` placeholders in the issue title and footer. The scan window is always **Monday of the current week through today**, regardless of which day the workflow runs.
 
 Use the `web-fetch` tool to retrieve: `https://github.blog/changelog/feed/`
 
@@ -160,31 +158,31 @@ This lets you focus web-fetch efforts on **truly new content** and avoid redunda
 
 ---
 
-## Step 4: Check for Existing Weekly Discussion
+## Step 4: Check for Existing Weekly Issue
 
-Before creating a new discussion, check if one already exists for the current week. This workflow may run multiple times per week (every 6 hours or via manual dispatch), and the same week's summary should be **updated in place** rather than duplicated.
+Before creating a new issue, check if one already exists for the current week. This workflow may run multiple times per week (every 6 hours or via manual dispatch), and the same week's summary should be **updated in place** rather than duplicated.
 
-Use the GitHub `discussions` tool to search for an existing discussion in this repository whose title matches:
+Use the GitHub `issues` tool to search for an existing issue in this repository whose title matches:
 
 ```
 📰 Weekly Copilot Summary – {WEEK_START_DATE} - {WEEK_END_DATE}
 ```
 
-(The `📰` prefix is added automatically by the safe-output tool when creating discussions, so include it when searching.)
+(The `📰` prefix is added automatically by the safe-output tool when creating issues, so include it when searching.)
 
-- **If a matching discussion is found**: You will update its body using the `update_discussion` safe-output with the newly compiled content. Record the discussion number for later use.
-- **If no matching discussion is found**: You will create a new discussion in Step 5.
+- **If a matching issue is found**: You will update its body using the `update_issue` safe-output with the newly compiled content. Record the issue number for later use.
+- **If no matching issue is found**: You will create a new issue in Step 5.
 
 ---
 
 ## Step 5: Compile and Publish the Summary
 
-Use h3 (`###`), h4 (`####`) and h5 (`#####`) headers only—never h1 or h2. The discussion title provides the top-level heading.
+Use h3 (`###`), h4 (`####`) and h5 (`#####`) headers only—never h1 or h2. The issue title provides the top-level heading.
 
 Compose the summary body using the template below.
 
-- **If updating an existing discussion**: Use the `update_discussion` safe-output tool to replace the discussion body with the newly compiled content.
-- **If creating a new discussion**: Use the `create_discussion` safe-output tool with the title and body below.
+- **If updating an existing issue**: Use the `update_issue` safe-output tool to replace the issue body with the newly compiled content.
+- **If creating a new issue**: Use the `create_issue` safe-output tool with the title and body below.
 
 ```
 TITLE: Weekly Copilot Summary – {WEEK_START_DATE} - {WEEK_END_DATE}
