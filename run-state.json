@@ -1,15 +1,8 @@
 {
-  "r": "2026-03-27",
-  "w": "2026-03-23/2026-03-29",
+  "r": "2026-03-30",
+  "w": "2026-03-30/2026-04-05",
   "v": "1.113",
-  "d": 7,
-  "urls": [
-    "https://github.blog/changelog/2026-03-26-gemini-3-pro-deprecated",
-    "https://github.blog/changelog/2026-03-26-ask-copilot-to-resolve-merge-conflicts-on-pull-requests",
-    "https://github.blog/changelog/2026-03-26-agent-activity-in-github-issues-and-projects",
-    "https://github.blog/changelog/2026-03-26-view-agentic-workflow-configs-in-the-actions-run-summary",
-    "https://github.blog/changelog/2026-03-25-github-copilot-for-jira-public-preview-enhancements",
-    "https://github.blog/changelog/2026-03-25-updates-to-our-privacy-statement-and-terms-of-service-how-we-use-your-data",
-    "https://github.blog/changelog/2026-03-25-copilot-usage-metrics-now-identify-active-copilot-coding-agent-users"
-  ]
+  "insiders": "1.114",
+  "d": 0,
+  "urls": []
 }
