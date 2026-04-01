@@ -1,9 +1,9 @@
 {
-  "r": "2026-03-31",
+  "r": "2026-04-01",
   "w": "2026-03-30/2026-04-05",
-  "v": "1.113",
-  "insiders": "1.114",
-  "d": 7,
+  "v": "1.114",
+  "insiders": "1.115",
+  "d": 12,
   "urls": [
     "https://github.blog/changelog/2026-03-25-updates-to-our-privacy-statement-and-terms-of-service-how-we-use-your-data",
     "https://github.blog/changelog/2026-03-26-agent-activity-in-github-issues-and-projects",
@@ -11,6 +11,7 @@
     "https://github.blog/changelog/2026-03-26-gemini-3-pro-deprecated",
     "https://github.blog/changelog/2026-03-25-github-copilot-for-jira-public-preview-enhancements",
     "https://github.blog/changelog/2026-03-30-create-issues-from-slack-with-copilot",
-    "https://github.blog/changelog/2026-03-31-codeql-pull-requests-insights-on-security-overview-now-cover-all-protected-branches"
+    "https://github.blog/changelog/2026-03-31-codeql-pull-requests-insights-on-security-overview-now-cover-all-protected-branches",
+    "https://github.blog/changelog/2026-03-31-upcoming-deprecation-of-claude-sonnet-4-in-github-copilot"
   ]
 }
