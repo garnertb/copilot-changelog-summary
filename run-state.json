@@ -3,7 +3,7 @@
   "w": "2026-03-30/2026-04-05",
   "v": "1.114",
   "insiders": "1.115",
-  "d": 16,
+  "d": 17,
   "urls": [
     "https://github.blog/changelog/2026-03-25-updates-to-our-privacy-statement-and-terms-of-service-how-we-use-your-data",
     "https://github.blog/changelog/2026-03-26-agent-activity-in-github-issues-and-projects",
@@ -20,6 +20,7 @@
     "https://github.blog/changelog/2026-04-02-copilot-usage-metrics-now-includes-per-user-github-copilot-cli-activity-in-organization-reports",
     "https://github.blog/changelog/2026-04-02-github-copilot-in-visual-studio-march-update",
     "https://github.blog/changelog/2026-04-02-copilot-organization-custom-instructions-are-generally-available",
-    "https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview"
+    "https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview",
+    "https://github.blog/changelog/2026-04-03-copilot-cloud-agent-signs-its-commits"
   ]
 }
