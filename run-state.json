@@ -3,7 +3,7 @@
   "w": "2026-03-30/2026-04-05",
   "v": "1.114",
   "insiders": "1.115",
-  "d": 17,
+  "d": 19,
   "urls": [
     "https://github.blog/changelog/2026-03-25-updates-to-our-privacy-statement-and-terms-of-service-how-we-use-your-data",
     "https://github.blog/changelog/2026-03-26-agent-activity-in-github-issues-and-projects",
@@ -21,6 +21,8 @@
     "https://github.blog/changelog/2026-04-02-github-copilot-in-visual-studio-march-update",
     "https://github.blog/changelog/2026-04-02-copilot-organization-custom-instructions-are-generally-available",
     "https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview",
-    "https://github.blog/changelog/2026-04-03-copilot-cloud-agent-signs-its-commits"
+    "https://github.blog/changelog/2026-04-03-copilot-cloud-agent-signs-its-commits",
+    "https://github.blog/changelog/2026-04-03-organization-firewall-settings-for-copilot-cloud-agent",
+    "https://github.blog/changelog/2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated"
   ]
 }
