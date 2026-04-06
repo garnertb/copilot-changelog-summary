@@ -1,8 +1,10 @@
 {
   "r": "2026-04-06",
   "w": "2026-04-06/2026-04-12",
+  "issue": 13,
   "v": "1.114",
   "insiders": "1.115",
   "d": 0,
-  "urls": []
+  "urls": [],
+  "note": "Week just started (Monday). No GitHub Changelog entries published Apr 6 yet. VS Code 1.114 stable (Apr 1) and 1.115 Insiders (Apr 3) covered."
 }
