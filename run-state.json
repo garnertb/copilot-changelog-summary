@@ -1,10 +1,12 @@
 {
-  "r": "2026-04-06",
+  "r": "2026-04-07",
   "w": "2026-04-06/2026-04-12",
   "issue": 13,
   "v": "1.114",
   "insiders": "1.115",
-  "d": 0,
-  "urls": [],
-  "note": "Week just started (Monday). No GitHub Changelog entries published Apr 6 yet. VS Code 1.114 stable (Apr 1) and 1.115 Insiders (Apr 3) covered."
+  "d": 1,
+  "urls": [
+    "https://github.blog/changelog/2026-04-06-copilot-usage-metrics-now-identify-active-and-passive-copilot-code-review-users"
+  ],
+  "note": "Apr 7: Added CCR active/passive metrics entry (Apr 6). VS Code 1.115 Stable expected Apr 8. 1.114 Stable (Apr 1) covered."
 }
