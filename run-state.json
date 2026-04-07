@@ -4,9 +4,9 @@
   "issue": 13,
   "v": "1.114",
   "insiders": "1.115",
-  "d": 2,
+  "d": 3,
   "urls": [
     "https://github.blog/changelog/2026-04-06-copilot-usage-metrics-now-identify-active-and-passive-copilot-code-review-users"
   ],
-  "note": "Apr 7 run 2: No new changelog entries. VS Code 1.115 still Insiders (Stable expected Apr 8). Issue 13 up to date. 1.114 Stable (Apr 1) covered."
+  "note": "Apr 7 run 3: No new Copilot changelog entries. Code scanning entry (Apr 7) not Copilot-related. VS Code 1.115 still Insiders (Stable feed shows Apr 8 scheduled). Issue 13 up to date."
 }
