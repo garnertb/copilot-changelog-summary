@@ -4,11 +4,11 @@
   "issue": 13,
   "v": "1.114",
   "insiders": "1.115",
-  "d": 5,
+  "d": 6,
   "urls": [
     "https://github.blog/changelog/2026-04-06-copilot-usage-metrics-now-identify-active-and-passive-copilot-code-review-users",
     "https://github.blog/changelog/2026-04-07-copilot-cli-now-supports-byok-and-local-models",
     "https://github.blog/changelog/2026-04-07-dependabot-alerts-are-now-assignable-to-ai-agents-for-remediation"
   ],
-  "note": "Apr 8 run 5: No new entries since Apr 7. Updated last-updated timestamp and run ID in issue #13. VS Code 1.115 still Insiders (last update Apr 3)."
+  "note": "Apr 8 run 6: No new entries since Apr 7. Fixed duplicate footer in issue #13. VS Code 1.115 still Insiders (last update Apr 3)."
 }
