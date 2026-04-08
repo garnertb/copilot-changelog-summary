@@ -2,13 +2,14 @@
   "r": "2026-04-08",
   "w": "2026-04-06/2026-04-12",
   "issue": 13,
-  "v": "1.114",
-  "insiders": "1.115",
-  "d": 7,
+  "v": "1.115",
+  "insiders": "1.116",
+  "d": 8,
   "urls": [
     "https://github.blog/changelog/2026-04-06-copilot-usage-metrics-now-identify-active-and-passive-copilot-code-review-users",
     "https://github.blog/changelog/2026-04-07-copilot-cli-now-supports-byok-and-local-models",
-    "https://github.blog/changelog/2026-04-07-dependabot-alerts-are-now-assignable-to-ai-agents-for-remediation"
+    "https://github.blog/changelog/2026-04-07-dependabot-alerts-are-now-assignable-to-ai-agents-for-remediation",
+    "https://github.blog/changelog/2026-04-08-code-security-risk-assessment-available-for-organizations"
   ],
-  "note": "Apr 8 run 7: No new entries since Apr 7. GitHub changelog RSS last built Apr 7. VS Code Insiders last updated Apr 3. Issue #13 is up to date."
+  "note": "Apr 8 run 8: Updated issue #13 with VS Code 1.115 stable release (April 8) and new Code Security risk assessment entry. Moved 1.115 from Insiders to Stable section."
 }
