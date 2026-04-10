@@ -13,8 +13,9 @@
     "https://github.blog/changelog/2026-04-08-copilot-reviewed-pull-request-merge-metrics-now-in-the-usage-metrics-api",
     "https://github.blog/changelog/2026-04-08-github-mobile-research-and-code-with-copilot-cloud-agent-anywhere",
     "https://github.blog/changelog/2026-04-08-github-copilot-in-visual-studio-code-march-releases",
-    "https://github.blog/changelog/2026-04-09-ask-copilot-in-security-assessments-now-available"
+    "https://github.blog/changelog/2026-04-09-ask-copilot-in-security-assessments-now-available",
+    "https://github.blog/changelog/2026-04-10-copilot-cloud-agents-validation-tools-are-now-20-faster"
   ],
   "pending": [],
-  "note": "Apr 10 run (12:37 UTC): Updated issue #13 with full weekly digest including VS Code 1.115/1.116 coverage."
+  "note": "Apr 10 run (18:36 UTC): Updated issue #13 adding Apr 10 cloud agent validation speedup entry."
 }
