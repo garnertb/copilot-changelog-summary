@@ -3,11 +3,12 @@
   "w": "2026-04-13/2026-04-19",
   "issue": null,
   "issue_creation_failed": true,
-  "issue_creation_error": "safeoutputs MCP server filtered by MCP registry policy (Copilot CLI not authenticated)",
+  "issue_creation_error": "safeoutputs tools not available in tool registry (create_issue not found)",
   "v": "1.115",
   "insiders": "1.116",
-  "d": 0,
-  "urls": [],
-  "pending": [],
-  "note": "Apr 13 run #2: No GitHub Changelog Copilot entries since Mon Apr 13. VS Code 1.115 stable (Apr 8) covered + 1.116 Insiders. safeoutputs MCP blocked - issue creation failed. Content saved to weekly-digest.md."
+  "d": 1,
+  "urls": [
+    "https://github.blog/changelog/2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview"
+  ],
+  "note": "Apr 13 run #3: Remote CLI sessions entry found. safeoutputs create_issue not in tool registry. Digest saved to weekly-digest-2026-04-13.md for next run."
 }
