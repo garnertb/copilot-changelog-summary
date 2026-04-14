@@ -1,16 +1,1 @@
-{
-  "r": "2026-04-14",
-  "w": "2026-04-13/2026-04-19",
-  "issue": null,
-  "issue_creation_failed": true,
-  "issue_creation_error": "safeoutputs tools not available in tool registry (create_issue not found)",
-  "v": "1.115",
-  "insiders": "1.116",
-  "d": 2,
-  "urls": [
-    "https://github.blog/changelog/2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview",
-    "https://github.blog/changelog/2026-04-13-copilot-data-residency-in-us-eu-and-fedramp-compliance-now-available",
-    "https://github.blog/changelog/2026-04-13-fix-merge-conflicts-in-three-clicks-with-copilot-cloud-agent"
-  ],
-  "note": "Apr 14 run: 3 entries from Apr 13. safeoutputs create_issue still not in tool registry. Full digest in weekly-digest-2026-04-13.md."
-}
+{"r": "2026-04-14", "w": "2026-04-13/2026-04-19", "issue_created": true, "issue_title": "Weekly Copilot Summary - April 13, 2026 - April 19, 2026", "v": "1.115", "d": 7, "urls": ["https://github.blog/changelog/2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview", "https://github.blog/changelog/2026-04-13-copilot-data-residency-in-us-eu-and-fedramp-compliance-now-available", "https://github.blog/changelog/2026-04-13-fix-merge-conflicts-in-three-clicks-with-copilot-cloud-agent", "https://github.blog/changelog/2026-04-10-enforcing-new-limits-and-retiring-opus-4-6-fast-from-copilot-pro", "https://github.blog/changelog/2026-04-10-pausing-new-github-copilot-pro-trials", "https://github.blog/changelog/2026-04-10-copilot-usage-metrics-now-aggregate-copilot-cloud-agent-active-user-counts", "https://github.blog/changelog/2026-04-10-copilot-cli-activity-now-included-in-usage-metrics-totals-and-feature-breakdowns"], "note": "Apr 14: Issue created via MCP HTTP. 7 entries covered (3 Apr13 + 4 Apr10)."}
