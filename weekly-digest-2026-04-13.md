@@ -1,4 +1,4 @@
-# Week of April 13-19, 2026 - Issue Created
+# Week of April 13-19, 2026 - Issue #15 Updated
 
 ## Entries Covered
 - Remote CLI sessions (Apr 13): copilot --remote preview
@@ -8,6 +8,7 @@
 - Copilot Pro trials paused (Apr 10/13): anti-abuse measure
 - Cloud agent usage metrics (Apr 10): daily/weekly/monthly counts
 - CLI activity in metrics totals (Apr 10): CLI now in top-level totals
+- GitHub Code Quality standard findings improvements (Apr 14): Copilot Autofix, file search, bulk dismiss
 
 ## VS Code
 - v1.115 (Apr 8): Agents App preview, BYOK for Biz/Enterprise, terminal tools
