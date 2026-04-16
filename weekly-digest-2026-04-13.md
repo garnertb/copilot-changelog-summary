@@ -10,6 +10,7 @@
 - CLI activity in metrics totals (Apr 10): CLI now in top-level totals
 - GitHub Code Quality standard findings improvements (Apr 14): Copilot Autofix, file search, bulk dismiss
 - Model selection for Claude/Codex agents (Apr 14): choose Anthropic/OpenAI models for cloud agents
+- Enable Copilot cloud agent via custom properties (Apr 15): per-org CCA controls, 3 new API endpoints
 
 ## VS Code
 - v1.116 (Apr 15): Copilot built-in, agent debug logs, thinking effort in CLI, customizations welcome page, foreground terminal support, tool confirmation carousel
