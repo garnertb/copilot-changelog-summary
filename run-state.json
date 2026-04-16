@@ -1,1 +1,22 @@
-{"r": "2026-04-16", "w": "2026-04-13/2026-04-19", "issue_created": true, "issue_number": 15, "issue_title": "Weekly Copilot Summary - April 13, 2026 - April 19, 2026", "v": "1.116", "d": 10, "urls": ["https://github.blog/changelog/2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview", "https://github.blog/changelog/2026-04-13-copilot-data-residency-in-us-eu-and-fedramp-compliance-now-available", "https://github.blog/changelog/2026-04-13-fix-merge-conflicts-in-three-clicks-with-copilot-cloud-agent", "https://github.blog/changelog/2026-04-10-enforcing-new-limits-and-retiring-opus-4-6-fast-from-copilot-pro", "https://github.blog/changelog/2026-04-10-pausing-new-github-copilot-pro-trials", "https://github.blog/changelog/2026-04-10-copilot-usage-metrics-now-aggregate-copilot-cloud-agent-active-user-counts", "https://github.blog/changelog/2026-04-10-copilot-cli-activity-now-included-in-usage-metrics-totals-and-feature-breakdowns", "https://github.blog/changelog/2026-04-14-github-code-quality-improvements-to-standard-findings-in-public-preview", "https://github.blog/changelog/2026-04-14-model-selection-for-claude-and-codex-agents-on-github-com", "https://github.blog/changelog/2026-04-15-enable-copilot-cloud-agent-via-custom-properties"], "note": "Apr 16 (run 8): No new changelog entries. VS Code 1.116 (Apr 15) already captured. Updated issue #15 with comprehensive digest including Copilot built-in in VS Code, remote CLI sessions, data residency/FedRAMP, Fix with Copilot merge conflicts, model selection for agents, CCA custom properties. Feed lastBuildDate: 2026-04-15T22:09:42Z. 10 changelog entries total."}
+{
+  "r": "2026-04-16",
+  "w": "2026-04-13/2026-04-19",
+  "issue_created": true,
+  "issue_number": 15,
+  "issue_title": "Weekly Copilot Summary - April 13, 2026 - April 19, 2026",
+  "v": "1.116",
+  "d": 10,
+  "urls": [
+    "https://github.blog/changelog/2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview",
+    "https://github.blog/changelog/2026-04-13-copilot-data-residency-in-us-eu-and-fedramp-compliance-now-available",
+    "https://github.blog/changelog/2026-04-13-fix-merge-conflicts-in-three-clicks-with-copilot-cloud-agent",
+    "https://github.blog/changelog/2026-04-10-enforcing-new-limits-and-retiring-opus-4-6-fast-from-copilot-pro",
+    "https://github.blog/changelog/2026-04-10-pausing-new-github-copilot-pro-trials",
+    "https://github.blog/changelog/2026-04-10-copilot-usage-metrics-now-aggregate-copilot-cloud-agent-active-user-counts",
+    "https://github.blog/changelog/2026-04-10-copilot-cli-activity-now-included-in-usage-metrics-totals-and-feature-breakdowns",
+    "https://github.blog/changelog/2026-04-14-github-code-quality-improvements-to-standard-findings-in-public-preview",
+    "https://github.blog/changelog/2026-04-14-model-selection-for-claude-and-codex-agents-on-github-com",
+    "https://github.blog/changelog/2026-04-15-enable-copilot-cloud-agent-via-custom-properties"
+  ],
+  "note": "Apr 16 (run 9): No new changelog entries. Feed lastBuildDate unchanged at 2026-04-15T22:09:42Z. Issue #15 already up to date with all 10 changelog entries and VS Code 1.116."
+}
