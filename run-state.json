@@ -5,7 +5,7 @@
   "issue_number": 15,
   "issue_title": "Weekly Copilot Summary - April 13, 2026 - April 19, 2026",
   "v": "1.116",
-  "d": 10,
+  "d": 12,
   "urls": [
     "https://github.blog/changelog/2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview",
     "https://github.blog/changelog/2026-04-13-copilot-data-residency-in-us-eu-and-fedramp-compliance-now-available",
@@ -16,7 +16,9 @@
     "https://github.blog/changelog/2026-04-10-copilot-cli-activity-now-included-in-usage-metrics-totals-and-feature-breakdowns",
     "https://github.blog/changelog/2026-04-14-github-code-quality-improvements-to-standard-findings-in-public-preview",
     "https://github.blog/changelog/2026-04-14-model-selection-for-claude-and-codex-agents-on-github-com",
-    "https://github.blog/changelog/2026-04-15-enable-copilot-cloud-agent-via-custom-properties"
+    "https://github.blog/changelog/2026-04-15-enable-copilot-cloud-agent-via-custom-properties",
+    "https://github.blog/changelog/2026-04-16-manage-agent-skills-with-github-cli",
+    "https://github.blog/changelog/2026-04-16-claude-opus-4-7-is-generally-available"
   ],
-  "note": "Apr 16 (run 9): No new changelog entries. Feed lastBuildDate unchanged at 2026-04-15T22:09:42Z. Issue #15 already up to date with all 10 changelog entries and VS Code 1.116."
+  "note": "Apr 16 (run 10): Added 2 new entries: gh skill CLI (Apr 16) and Claude Opus 4.7 GA (Apr 16). Issue #15 updated with full write-ups for both plus expanded VS Code 1.116 section."
 }
