@@ -29,4 +29,4 @@ Copilot built-in (no install needed), agent debug logs, thinking effort in CLI, 
 - CLI sessions show VS Code vs external creation context
 
 ## Last Updated
-Apr 17 (run 11) - safe-output tools unavailable, issue update attempt failed
+Apr 17 (run 12) - Issue #15 confirmed current and complete. VS Code 1.117 full release notes due Apr 22.
