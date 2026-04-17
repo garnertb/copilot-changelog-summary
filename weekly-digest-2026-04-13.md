@@ -1,4 +1,4 @@
-# Week of April 13-19, 2026 - Issue #15 Updated
+# Week of April 13-19, 2026 - Issue #15
 
 ## Entries Covered (12 total)
 - Remote CLI sessions (Apr 13): `copilot --remote` public preview
@@ -14,5 +14,19 @@
 - Manage agent skills with GitHub CLI (Apr 16): new `gh skill` command v2.90.0+, version pinning, supply chain integrity
 - Claude Opus 4.7 GA (Apr 16): replaces Opus 4.5/4.6 for Pro+, 7.5x premium multiplier until Apr 30
 
-## VS Code
-- v1.116 (Apr 15): Copilot built-in (no install needed), agent debug logs, thinking effort in CLI, customizations welcome page, foreground terminal support, tool confirmation carousel (experimental), JS/TS chat features extension, VS Code Agents app renamed and improved
+## VS Code Stable (1.116, Apr 15)
+Copilot built-in (no install needed), agent debug logs, thinking effort in CLI, customizations welcome page, foreground terminal support, tool confirmation carousel (experimental), JS/TS chat features extension, VS Code Agents app renamed and improved, enterprise agent network filter, background terminal notifications on by default
+
+## VS Code Insiders (1.117, Apr 12-16)
+- Autopilot permission mode persists across sessions (chat.permissions.default)
+- Terminal output auto-included in agent results (saves extra turn)
+- Agent Host auto-approve: Default/Bypass/Autopilot modes
+- Agent Host Protocol: subagents and agent teams support
+- Agent Host sessions: worktree and git isolation
+- Copilot CLI, Claude Code, Gemini CLI recognized as terminal shell types
+- Copilot CLI: meaningful branch names for worktrees
+- Agents app self-update on macOS
+- CLI sessions show VS Code vs external creation context
+
+## Last Updated
+Apr 17 (run 11) - safe-output tools unavailable, issue update attempt failed

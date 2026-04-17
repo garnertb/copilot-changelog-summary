@@ -1,10 +1,11 @@
 {
-  "r": "2026-04-16",
+  "r": "2026-04-17",
   "w": "2026-04-13/2026-04-19",
   "issue_created": true,
   "issue_number": 15,
   "issue_title": "Weekly Copilot Summary - April 13, 2026 - April 19, 2026",
   "v": "1.116",
+  "vscode_insiders": "1.117",
   "d": 12,
   "urls": [
     "https://github.blog/changelog/2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview",
@@ -20,5 +21,5 @@
     "https://github.blog/changelog/2026-04-16-manage-agent-skills-with-github-cli",
     "https://github.blog/changelog/2026-04-16-claude-opus-4-7-is-generally-available"
   ],
-  "note": "Apr 16 (run 10): Added 2 new entries: gh skill CLI (Apr 16) and Claude Opus 4.7 GA (Apr 16). Issue #15 updated with full write-ups for both plus expanded VS Code 1.116 section."
+  "note": "Apr 17 (run 11): No new GitHub Changelog entries. Added VS Code 1.117 Insiders section with 9 new features (Apr 12-16). Issue #15 updated successfully."
 }
