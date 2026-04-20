@@ -7,9 +7,9 @@
   "v": "1.116",
   "vscode_insiders": "1.117",
   "vscode_117_stable_expected": "2026-04-22",
-  "d": 3,
+  "d": 4,
   "urls": [
     "https://github.blog/changelog/2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection"
   ],
-  "note": "Apr 20 (run 3): No new GitHub Changelog entries. VS Code 1.117 full release notes available at /updates/v1_117 (last updated Apr 17) but not yet stable - expected Apr 22. Issue #16 is current and complete. Next expected update: Apr 22 when VS Code 1.117 goes stable."
+  "note": "Apr 20 (run 4): No new GitHub Changelog entries. SHA-1 HTTPS sunset (Apr 20) not Copilot-related. VS Code 1.117 still Insiders, stable expected Apr 22. Issue #16 current and complete. Next expected update: Apr 22 when VS Code 1.117 goes stable."
 }
