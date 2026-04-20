@@ -6,9 +6,10 @@
   "issue_title": "Weekly Copilot Summary – April 20, 2026 - April 26, 2026",
   "v": "1.116",
   "vscode_insiders": "1.117",
-  "d": 2,
+  "vscode_117_stable_expected": "2026-04-22",
+  "d": 3,
   "urls": [
     "https://github.blog/changelog/2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection"
   ],
-  "note": "Apr 20 (run 2): Updated issue #16 with full digest. CLI auto model selection (Apr 17) is the only GitHub Changelog entry this week so far. VS Code 1.116 stable covered (Apr 15). VS Code 1.117 Insiders expected stable Apr 22."
+  "note": "Apr 20 (run 3): No new GitHub Changelog entries. VS Code 1.117 full release notes available at /updates/v1_117 (last updated Apr 17) but not yet stable - expected Apr 22. Issue #16 is current and complete. Next expected update: Apr 22 when VS Code 1.117 goes stable."
 }
