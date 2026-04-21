@@ -7,10 +7,10 @@
   "v": "1.116",
   "vscode_insiders": "1.117",
   "vscode_117_stable_expected": "2026-04-22",
-  "d": 5,
+  "d": 6,
   "urls": [
     "https://github.blog/changelog/2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection",
     "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals"
   ],
-  "note": "Apr 21 (run 5): Added 'Changes to GitHub Copilot plans for individuals' (Apr 20) - major change: signups paused for Pro/Pro+/Student, tighter limits, Opus removed from Pro, refund window Apr 20-May 20. VS Code 1.117 still Insiders, stable expected Apr 22. Issue #16 updated."
+  "note": "Apr 21 (run 6): No new entries. RSS last updated Apr 20 18:18 UTC, no new Copilot entries. VS Code 1.117 still Insiders, stable expected Apr 22. Issue #16 remains current."
 }
