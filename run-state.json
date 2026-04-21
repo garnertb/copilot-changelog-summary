@@ -1,5 +1,5 @@
 {
-  "r": "2026-04-20",
+  "r": "2026-04-21",
   "w": "2026-04-20/2026-04-26",
   "issue_created": true,
   "issue_number": 16,
@@ -7,9 +7,10 @@
   "v": "1.116",
   "vscode_insiders": "1.117",
   "vscode_117_stable_expected": "2026-04-22",
-  "d": 4,
+  "d": 5,
   "urls": [
-    "https://github.blog/changelog/2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection"
+    "https://github.blog/changelog/2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection",
+    "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals"
   ],
-  "note": "Apr 20 (run 4): No new GitHub Changelog entries. SHA-1 HTTPS sunset (Apr 20) not Copilot-related. VS Code 1.117 still Insiders, stable expected Apr 22. Issue #16 current and complete. Next expected update: Apr 22 when VS Code 1.117 goes stable."
+  "note": "Apr 21 (run 5): Added 'Changes to GitHub Copilot plans for individuals' (Apr 20) - major change: signups paused for Pro/Pro+/Student, tighter limits, Opus removed from Pro, refund window Apr 20-May 20. VS Code 1.117 still Insiders, stable expected Apr 22. Issue #16 updated."
 }
