@@ -1,7 +1,7 @@
 # Weekly Digest: April 20–26, 2026
 
 **Issue**: #16  
-**Status**: Active, updated through Apr 21 (run 7)
+**Status**: Active, updated through Apr 21 (run 8)
 
 ## GitHub Changelog Entries (This Week)
 
