@@ -6,10 +6,12 @@
   "issue_title": "Weekly Copilot Summary – April 20, 2026 - April 26, 2026",
   "v": "1.117",
   "vscode_insiders": "1.117",
-  "d": 11,
+  "d": 12,
   "urls": [
     "https://github.blog/changelog/2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection",
-    "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals"
+    "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals",
+    "https://github.blog/changelog/2026-04-22-bring-your-own-language-model-key-in-vs-code-now-available",
+    "https://github.blog/changelog/2026-04-22-c-code-intelligence-for-github-copilot-cli-in-public-preview"
   ],
-  "note": "Apr 22 (run 11): VS Code 1.117 went stable (Apr 22). Updated issue #16 with BYOK, incremental chat rendering, agent session sort, terminal improvements, agent CLI title detection. No new GitHub Changelog entries since Apr 21."
+  "note": "Apr 22 (run 12): Added two new Apr 22 entries: BYOK official Changelog entry + C++ code intelligence for Copilot CLI (public preview). Issue #16 updated with all 4 entries for the week."
 }
