@@ -1,16 +1,16 @@
 {
-  "r": "2026-04-21",
+  "r": "2026-04-22",
   "w": "2026-04-20/2026-04-26",
   "issue_created": true,
   "issue_number": 16,
   "issue_title": "Weekly Copilot Summary – April 20, 2026 - April 26, 2026",
   "v": "1.116",
   "vscode_insiders": "1.117",
-  "vscode_117_stable_expected": "2026-04-22",
-  "d": 8,
+  "vscode_117_stable_expected": "TBD",
+  "d": 9,
   "urls": [
     "https://github.blog/changelog/2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection",
     "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals"
   ],
-  "note": "Apr 21 (run 8): No new entries. Apr 21 changelog entry was CodeQL (not Copilot). VS Code 1.117 still Insiders, expected stable Apr 22. Issue #16 is current and complete."
+  "note": "Apr 22 (run 9): No new entries. Apr 21 changelog was CodeQL only. Apr 22 has no new Copilot entries. VS Code 1.117 still Insiders (main updates page still shows 1.116 stable). Issue #16 is current and complete."
 }
