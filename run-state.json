@@ -7,10 +7,10 @@
   "v": "1.116",
   "vscode_insiders": "1.117",
   "vscode_117_stable_expected": "TBD",
-  "d": 9,
+  "d": 10,
   "urls": [
     "https://github.blog/changelog/2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection",
     "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals"
   ],
-  "note": "Apr 22 (run 9): No new entries. Apr 21 changelog was CodeQL only. Apr 22 has no new Copilot entries. VS Code 1.117 still Insiders (main updates page still shows 1.116 stable). Issue #16 is current and complete."
+  "note": "Apr 22 (run 10): No new entries. Latest RSS entry is Apr 21 CodeQL (not Copilot). VS Code 1.117 still Insiders (main updates page still shows 1.116 stable). Issue #16 is current and complete."
 }
