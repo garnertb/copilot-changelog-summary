@@ -7,7 +7,7 @@
   "v": "1.117",
   "vscode_stable_released": "2026-04-22",
   "vscode_insiders": "1.117",
-  "d": 13,
+  "d": 14,
   "urls": [
     "https://github.blog/changelog/2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection",
     "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals",
@@ -16,5 +16,5 @@
     "https://github.blog/changelog/2026-04-22-copilot-code-review-user-counts-now-aggregate-in-usage-metrics-api",
     "https://github.blog/changelog/2026-04-22-github-copilot-for-jira-our-latest-enhancements"
   ],
-  "note": "Apr 23 (run 13): Added two new entries: Copilot code review user counts in usage metrics API (Apr 22 23:25) + Copilot for Jira enhancements (Apr 23). VS Code 1.117 stable shipped Apr 22. Issue #16 updated with all 6 entries for the week."
+  "note": "Apr 23 (run 14): No new entries since run 13. RSS lastBuildDate 00:42 UTC, all 6 entries already in issue #16."
 }

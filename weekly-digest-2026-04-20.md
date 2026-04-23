@@ -1,10 +1,12 @@
 # Weekly Digest: April 20–26, 2026
 
 **Issue**: #16  
-**Status**: Updated Apr 22 (run 12) — C++ LSP + BYOK Changelog entries added
+**Status**: Updated Apr 23 (run 14) — no new entries; all 6 processed entries current
 
 ## GitHub Changelog Entries (This Week)
 
+- **Copilot for Jira: latest enhancements** (Apr 23) — Custom agents, custom fields, custom branching rules, custom instructions at space level, review request notifications.
+- **Copilot code review user counts in usage metrics API** (Apr 22) — 6 new daily/weekly/monthly active+passive fields; active always trumps passive.
 - **C++ code intelligence for Copilot CLI** (Apr 22) — Microsoft C++ Language Server in public preview; semantic symbol resolution for Copilot CLI. npm package, requires compile_commands.json.
 - **BYOK in VS Code now available** (Apr 22) — Official Changelog entry confirming BYOK GA for Business/Enterprise; Anthropic, Gemini, OpenAI, OpenRouter, Azure, Ollama, Foundry Local.
 - **Changes to GitHub Copilot plans for individuals** (Apr 20) — Signups paused for Pro/Pro+/Student; tighter limits; Opus removed from Pro; refund window until May 20.
@@ -17,4 +19,4 @@
 
 ## Next Run
 
-Watch for any new entries Thu Apr 23+.
+Watch for any new entries Fri Apr 24+.
