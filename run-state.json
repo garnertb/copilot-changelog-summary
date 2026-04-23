@@ -7,14 +7,18 @@
   "v": "1.117",
   "vscode_stable_released": "2026-04-22",
   "vscode_insiders": "1.117",
-  "d": 15,
+  "d": 16,
   "urls": [
     "https://github.blog/changelog/2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection",
     "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals",
     "https://github.blog/changelog/2026-04-22-bring-your-own-language-model-key-in-vs-code-now-available",
     "https://github.blog/changelog/2026-04-22-c-code-intelligence-for-github-copilot-cli-in-public-preview",
     "https://github.blog/changelog/2026-04-22-copilot-code-review-user-counts-now-aggregate-in-usage-metrics-api",
-    "https://github.blog/changelog/2026-04-22-github-copilot-for-jira-our-latest-enhancements"
+    "https://github.blog/changelog/2026-04-22-github-copilot-for-jira-our-latest-enhancements",
+    "https://github.blog/changelog/2026-04-22-upcoming-change-to-copilot-usage-metrics-report-download-urls",
+    "https://github.blog/changelog/2026-04-23-better-debugging-with-github-copilot-on-the-web",
+    "https://github.blog/changelog/2026-04-22-pausing-new-self-serve-signups-for-github-copilot-business",
+    "https://github.blog/changelog/2026-04-23-copilot-cloud-agent-fields-added-to-usage-metrics"
   ],
-  "note": "Apr 23 (run 15): No new entries since run 14. RSS lastBuildDate still 00:42 UTC, all 6 entries already in issue #16."
+  "note": "Apr 23 (run 16): 4 new entries added to issue #16. RSS lastBuildDate 18:10 UTC. 10 total entries."
 }
