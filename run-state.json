@@ -1,17 +1,20 @@
 {
-  "r": "2026-04-22",
+  "r": "2026-04-23",
   "w": "2026-04-20/2026-04-26",
   "issue_created": true,
   "issue_number": 16,
   "issue_title": "Weekly Copilot Summary – April 20, 2026 - April 26, 2026",
   "v": "1.117",
+  "vscode_stable_released": "2026-04-22",
   "vscode_insiders": "1.117",
-  "d": 12,
+  "d": 13,
   "urls": [
     "https://github.blog/changelog/2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection",
     "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals",
     "https://github.blog/changelog/2026-04-22-bring-your-own-language-model-key-in-vs-code-now-available",
-    "https://github.blog/changelog/2026-04-22-c-code-intelligence-for-github-copilot-cli-in-public-preview"
+    "https://github.blog/changelog/2026-04-22-c-code-intelligence-for-github-copilot-cli-in-public-preview",
+    "https://github.blog/changelog/2026-04-22-copilot-code-review-user-counts-now-aggregate-in-usage-metrics-api",
+    "https://github.blog/changelog/2026-04-22-github-copilot-for-jira-our-latest-enhancements"
   ],
-  "note": "Apr 22 (run 12): Added two new Apr 22 entries: BYOK official Changelog entry + C++ code intelligence for Copilot CLI (public preview). Issue #16 updated with all 4 entries for the week."
+  "note": "Apr 23 (run 13): Added two new entries: Copilot code review user counts in usage metrics API (Apr 22 23:25) + Copilot for Jira enhancements (Apr 23). VS Code 1.117 stable shipped Apr 22. Issue #16 updated with all 6 entries for the week."
 }
