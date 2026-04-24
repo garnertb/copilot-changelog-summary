@@ -7,7 +7,7 @@
   "v": "1.117",
   "vscode_stable_released": "2026-04-22",
   "vscode_insiders": "1.117",
-  "d": 19,
+  "d": 20,
   "urls": [
     "https://github.blog/changelog/2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection",
     "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals",
@@ -20,7 +20,8 @@
     "https://github.blog/changelog/2026-04-22-pausing-new-self-serve-signups-for-github-copilot-business",
     "https://github.blog/changelog/2026-04-23-copilot-cloud-agent-fields-added-to-usage-metrics",
     "https://github.blog/changelog/2026-04-23-view-and-manage-agent-sessions-from-issues-and-projects",
-    "https://github.blog/changelog/2026-04-23-copilot-chat-improvements-for-pull-requests"
+    "https://github.blog/changelog/2026-04-23-copilot-chat-improvements-for-pull-requests",
+    "https://github.blog/changelog/2026-04-24-inline-agent-mode-in-preview-and-more-in-github-copilot-for-jetbrains-ides"
   ],
-  "note": "Apr 24 (run 19): No new entries. RSS last build Apr 23. Issue #16 complete with 12 entries."
+  "note": "Apr 24 (run 20): 1 new entry added (JetBrains inline agent mode). Issue #16 updated with 13 entries total."
 }

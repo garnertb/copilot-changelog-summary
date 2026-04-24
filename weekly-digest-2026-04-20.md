@@ -1,12 +1,13 @@
 # Weekly Digest: April 20–26, 2026
 
 **Issue**: #16  
-**Status**: Updated Apr 24 (run 17) — 2 new entries added; 12 total entries in issue
+**Status**: Updated Apr 24 (run 20) — 1 new entry added; 13 total entries in issue
 
 ## GitHub Changelog Entries (This Week)
 
-- **Copilot Chat improvements for pull requests** (Apr 23) — NEW: PR understanding (comments/files/commits/reviews as context), PR review, PR summary. Access via github.com/copilot or Copilot button on diffs (public preview).
-- **View and manage agent sessions from issues and projects** (Apr 23) — NEW: Session pill on issues, session side panel on issues and projects, agent sessions enabled by default in projects.
+- **Inline agent mode in preview for JetBrains IDEs** (Apr 24) — NEW: Inline agent mode (public preview, Shift+Ctrl+I / Shift+Cmd+I), Next Edit Suggestions (inline inlay previews + gutter indicator for far-away edits), global auto-approve, granular terminal/file controls.
+- **Copilot Chat improvements for pull requests** (Apr 23) — PR understanding (comments/files/commits/reviews as context), PR review, PR summary. Access via github.com/copilot or Copilot button on diffs (public preview).
+- **View and manage agent sessions from issues and projects** (Apr 23) — Session pill on issues, session side panel on issues and projects, agent sessions enabled by default in projects.
 - **Better debugging with GitHub Copilot on the web** (Apr 23) — Stack trace → structured root-cause analysis; 6-part structured response format.
 - **Pausing new self-serve signups for Copilot Business** (Apr 23) — Signups paused for orgs on Free/Team plans; existing customers unaffected; no timeline for resumption.
 - **Copilot cloud agent fields added to usage metrics** (Apr 23) — `used_copilot_cloud_agent` field added; `used_copilot_coding_agent` deprecated Aug 1, 2026.
