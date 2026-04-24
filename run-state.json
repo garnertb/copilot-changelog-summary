@@ -7,7 +7,7 @@
   "v": "1.117",
   "vscode_stable_released": "2026-04-22",
   "vscode_insiders": "1.117",
-  "d": 17,
+  "d": 18,
   "urls": [
     "https://github.blog/changelog/2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection",
     "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals",
@@ -22,5 +22,5 @@
     "https://github.blog/changelog/2026-04-23-view-and-manage-agent-sessions-from-issues-and-projects",
     "https://github.blog/changelog/2026-04-23-copilot-chat-improvements-for-pull-requests"
   ],
-  "note": "Apr 24 (run 17): 2 new entries added to issue #16. 12 total entries. New: PR Chat improvements, agent session management from issues/projects."
+  "note": "Apr 24 (run 18): No new entries. RSS last build Apr 23. Issue #16 complete with 12 entries."
 }
