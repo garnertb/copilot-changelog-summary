@@ -1,11 +1,13 @@
 # Weekly Digest: April 27 – May 3, 2026
 
 **Issue**: #17  
-**Status**: Updated Apr 27 (run 2) — full digest published
+**Status**: Updated Apr 27 (run 3) — full digest published
 
 ## GitHub Changelog Entries (Covered)
 
-- **GPT-5.5 GA for Copilot** (Apr 24, missed from #16) — 7.5× premium multiplier; available in all IDEs via model picker; Business/Enterprise admin must enable policy.
+- **GPT-5.5 GA for Copilot** (Apr 24) — 7.5× premium multiplier; available in all IDEs via model picker; Business/Enterprise admin must enable policy.
+- **Copilot Chat improvements for PRs** (Apr 23) — PR understanding, PR review, PR summary in on-page and immersive chat; public-preview users can click Copilot on diffs.
+- **JetBrains: Inline agent mode + NES + auto-approve** (Apr 24) — Inline agent mode (public preview), Next Edit Suggestions with inlay previews and far-away edit indicators, global auto-approve toggle.
 - **GitHub App token format change** (Apr 24, rollout starts Apr 27) — New `ghs_APPID_JWT` format, ~520 chars variable length; breaking for fixed-length validators; staged rollout Apr 27–late June.
 
 ## VS Code

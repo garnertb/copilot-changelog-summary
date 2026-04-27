@@ -7,10 +7,12 @@
   "v": "1.117",
   "vscode_stable_released": "2026-04-22",
   "vscode_insiders": "1.118",
-  "d": 2,
+  "d": 3,
   "urls": [
     "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
-    "https://github.blog/changelog/2026-04-24-notice-about-upcoming-new-format-for-github-app-installation-tokens"
+    "https://github.blog/changelog/2026-04-24-notice-about-upcoming-new-format-for-github-app-installation-tokens",
+    "https://github.blog/changelog/2026-04-24-inline-agent-mode-in-preview-and-more-in-github-copilot-for-jetbrains-ides",
+    "https://github.blog/changelog/2026-04-23-copilot-chat-improvements-for-pull-requests"
   ],
-  "note": "Apr 27 (run 2): Full digest published to issue #17. GPT-5.5 GA (Apr 24, missed from #16) and token format change (starting today Apr 27) added. VS Code 1.117 BYOK, incremental chat, terminal improvements. No new GH changelog entries from Apr 27+ yet."
+  "note": "Apr 27 (run 3): Updated issue #17 with 2 missed entries: JetBrains inline agent mode/NES/auto-approve (Apr 24) and Copilot Chat PR improvements (Apr 23). Full digest now covers 4 GH changelog entries + VS Code 1.117 stable."
 }
