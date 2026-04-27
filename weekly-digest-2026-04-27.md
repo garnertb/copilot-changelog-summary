@@ -1,7 +1,7 @@
 # Weekly Digest: April 27 – May 3, 2026
 
 **Issue**: #17  
-**Status**: Updated Apr 27 (run 3) — full digest published
+**Status**: Updated Apr 27 (run 4) — full digest published
 
 ## GitHub Changelog Entries (Covered)
 
@@ -9,6 +9,10 @@
 - **Copilot Chat improvements for PRs** (Apr 23) — PR understanding, PR review, PR summary in on-page and immersive chat; public-preview users can click Copilot on diffs.
 - **JetBrains: Inline agent mode + NES + auto-approve** (Apr 24) — Inline agent mode (public preview), Next Edit Suggestions with inlay previews and far-away edit indicators, global auto-approve toggle.
 - **GitHub App token format change** (Apr 24, rollout starts Apr 27) — New `ghs_APPID_JWT` format, ~520 chars variable length; breaking for fixed-length validators; staged rollout Apr 27–late June.
+- **Copilot cloud agent usage metrics API** (Apr 23) — New `used_copilot_cloud_agent` field mirrors `used_copilot_coding_agent`; old field deprecated Aug 1, 2026.
+- **Copilot cloud agent 20% faster startup** (Apr 27) — Prebuilt Actions custom images cut startup time; builds on March's 50% improvement.
+- **Copilot code review: Actions minutes billing June 1, 2026** (Apr 27) — MAJOR: private repo reviews will consume Actions minutes starting June 1. Public repos unchanged. Affects Pro, Pro+, Business, Enterprise.
+- **Copilot Student: GPT-5.3-Codex removed from model picker** (Apr 27) — No longer manually selectable; still available via auto model selection.
 
 ## VS Code
 
@@ -17,4 +21,4 @@
 
 ## Next Run
 
-Watch for new changelog entries post Apr 27. Token format change brownout guidance expected mid-May.
+Watch for: Actions billing implementation details, token format brownout guidance (mid-May), VS Code 1.118 Insiders features.
