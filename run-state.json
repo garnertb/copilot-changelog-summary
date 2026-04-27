@@ -1,27 +1,13 @@
 {
-  "r": "2026-04-24",
-  "w": "2026-04-20/2026-04-26",
+  "r": "2026-04-27",
+  "w": "2026-04-27/2026-05-03",
   "issue_created": true,
-  "issue_number": 16,
-  "issue_title": "Weekly Copilot Summary – April 20, 2026 - April 26, 2026",
+  "issue_number": null,
+  "issue_title": "Weekly Copilot Summary \u2013 April 27, 2026 - May 3, 2026",
   "v": "1.117",
   "vscode_stable_released": "2026-04-22",
-  "vscode_insiders": "1.117",
-  "d": 20,
-  "urls": [
-    "https://github.blog/changelog/2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection",
-    "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals",
-    "https://github.blog/changelog/2026-04-22-bring-your-own-language-model-key-in-vs-code-now-available",
-    "https://github.blog/changelog/2026-04-22-c-code-intelligence-for-github-copilot-cli-in-public-preview",
-    "https://github.blog/changelog/2026-04-22-copilot-code-review-user-counts-now-aggregate-in-usage-metrics-api",
-    "https://github.blog/changelog/2026-04-22-github-copilot-for-jira-our-latest-enhancements",
-    "https://github.blog/changelog/2026-04-22-upcoming-change-to-copilot-usage-metrics-report-download-urls",
-    "https://github.blog/changelog/2026-04-23-better-debugging-with-github-copilot-on-the-web",
-    "https://github.blog/changelog/2026-04-22-pausing-new-self-serve-signups-for-github-copilot-business",
-    "https://github.blog/changelog/2026-04-23-copilot-cloud-agent-fields-added-to-usage-metrics",
-    "https://github.blog/changelog/2026-04-23-view-and-manage-agent-sessions-from-issues-and-projects",
-    "https://github.blog/changelog/2026-04-23-copilot-chat-improvements-for-pull-requests",
-    "https://github.blog/changelog/2026-04-24-inline-agent-mode-in-preview-and-more-in-github-copilot-for-jetbrains-ides"
-  ],
-  "note": "Apr 24 (run 20): 1 new entry added (JetBrains inline agent mode). Issue #16 updated with 13 entries total."
+  "vscode_insiders": "1.118",
+  "d": 1,
+  "urls": [],
+  "note": "Apr 27 (run 1): Week start. No new GH changelog entries from this week yet (feed last updated Apr 24). VS Code 1.118 Insiders active. GPT-5.5 launched Apr 24 (prev week, was missed from issue #16). Token format change rollout starts today."
 }
