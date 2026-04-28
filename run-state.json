@@ -7,7 +7,7 @@
   "v": "1.117",
   "vscode_stable_released": "2026-04-22",
   "vscode_insiders": "1.118",
-  "d": 4,
+  "d": 5,
   "urls": [
     "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
     "https://github.blog/changelog/2026-04-24-notice-about-upcoming-new-format-for-github-app-installation-tokens",
@@ -18,5 +18,5 @@
     "https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026",
     "https://github.blog/changelog/2026-04-27-copilot-student-gpt-5-3-codex-removal-from-model-picker"
   ],
-  "note": "Apr 28 (run 5): No new entries found. Issue #17 is current. All 8 GH changelog entries already processed. VS Code 1.117 stable + 1.118 Insiders already documented."
+  "note": "Apr 28 (run 6): No new entries found. Issue #17 is current. RSS lastBuildDate=2026-04-27T20:04:54Z. All 8 GH changelog entries already processed. VS Code 1.117 stable + 1.118 Insiders already documented."
 }

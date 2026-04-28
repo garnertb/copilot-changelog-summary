@@ -1,7 +1,7 @@
 # Weekly Digest: April 27 – May 3, 2026
 
 **Issue**: #17  
-**Status**: Updated Apr 27 (run 4) — full digest published
+**Status**: Current as of Apr 28 (run 6) — no new entries found
 
 ## GitHub Changelog Entries (Covered)
 
