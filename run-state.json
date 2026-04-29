@@ -4,12 +4,12 @@
   "issue_created": true,
   "issue_number": 17,
   "issue_title": "Weekly Copilot Summary – April 27, 2026 - May 3, 2026",
-  "v": "1.117",
-  "vscode_stable_released": "2026-04-22",
-  "vscode_insiders": "1.118",
-  "vscode_insiders_last_updated": "2026-04-27",
+  "v": "1.118",
+  "vscode_stable_released": "2026-04-29",
+  "vscode_insiders": "1.119",
+  "vscode_insiders_last_updated": "2026-04-29",
   "gh_rss_lastBuildDate": "2026-04-28T15:50:41Z",
-  "d": 10,
+  "d": 11,
   "urls": [
     "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
     "https://github.blog/changelog/2026-04-24-notice-about-upcoming-new-format-for-github-app-installation-tokens",
@@ -20,5 +20,5 @@
     "https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026",
     "https://github.blog/changelog/2026-04-27-copilot-student-gpt-5-3-codex-removal-from-model-picker"
   ],
-  "note": "Apr 29 (run 10): No new GH changelog entries (RSS lastBuildDate=2026-04-28T15:50:41Z unchanged). VS Code 1.118 Insiders last updated Apr 27 (unchanged). Issue #17 already up to date. Noop."
+  "note": "Apr 29 (run 11): VS Code 1.118 went Stable today (Apr 29). Updated issue #17 with full 1.118 Stable release notes: remote Copilot CLI control, semantic indexing for all workspaces, githubTextSearch, token efficiency improvements (93% cache reuse, tool search tool, agentic search/execution tools, WebSockets), Chronicle (experimental), enterprise org policy, TS7 beta. No new GH changelog entries (RSS unchanged)."
 }
