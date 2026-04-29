@@ -1,7 +1,7 @@
 # Weekly Digest: April 27 – May 3, 2026
 
 **Issue**: #17  
-**Status**: Current as of Apr 28 (run 6) — no new entries found
+**Status**: Updated Apr 29 (run 9) — added 4 missing entries + VS Code 1.118 Insiders
 
 ## GitHub Changelog Entries (Covered)
 
@@ -17,8 +17,8 @@
 ## VS Code
 
 - **1.117 Stable** (Apr 22): BYOK for Business/Enterprise, incremental chat rendering (experimental), sort agent sessions, system notifications for background terminal cmds, Copilot CLI terminal profile fix, agent CLI terminal titles.
-- **Insiders**: VS Code Agents app — sub-sessions, inline diff rendering, update flow, UX polish.
+- **1.118 Insiders** (Apr 27): Claude Code sessions in Agents app, skill tool for agent customizations + context:fork, Agents app SSO with VS Code on Windows, auto model selection for Copilot CLI, CLI model badge, quick session switching (Ctrl+1/2), workspace trust sharing, chat customization creator hints.
 
 ## Next Run
 
-Watch for: Actions billing implementation details, token format brownout guidance (mid-May), VS Code 1.118 Insiders features.
+Watch for: June 1 code review billing implementation, token format brownout guidance (mid-May), VS Code 1.118 going Stable, new changelog entries.
