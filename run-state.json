@@ -3,20 +3,22 @@
   "w": "2026-04-27/2026-05-03",
   "issue_created": true,
   "issue_number": 17,
-  "issue_title": "Weekly Copilot Summary \u2013 April 27, 2026 - May 3, 2026",
+  "issue_title": "Weekly Copilot Summary – April 27, 2026 - May 3, 2026",
   "v": "1.117",
   "vscode_stable_released": "2026-04-22",
   "vscode_insiders": "1.118",
-  "d": 9,
+  "vscode_insiders_last_updated": "2026-04-27",
+  "gh_rss_lastBuildDate": "2026-04-28T15:50:41Z",
+  "d": 10,
   "urls": [
     "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
     "https://github.blog/changelog/2026-04-24-notice-about-upcoming-new-format-for-github-app-installation-tokens",
-    "https://github.blog/changelog/2026-04-24-inline-agent-mode-in-github-copilot-for-jetbrains-ides",
+    "https://github.blog/changelog/2026-04-24-inline-agent-mode-in-preview-and-more-in-github-copilot-for-jetbrains-ides",
     "https://github.blog/changelog/2026-04-23-copilot-chat-improvements-for-pull-requests",
     "https://github.blog/changelog/2026-04-23-copilot-cloud-agent-fields-added-to-usage-metrics",
     "https://github.blog/changelog/2026-04-27-copilot-cloud-agent-starts-20-faster-with-actions-custom-images",
     "https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026",
     "https://github.blog/changelog/2026-04-27-copilot-student-gpt-5-3-codex-removal-from-model-picker"
   ],
-  "note": "Apr 29 (run 9): Updated issue #17 with 4 missing Apr 27 changelog entries (cloud agent speed, code review billing, Student model picker, usage metrics) and VS Code 1.118 Insiders content. RSS lastBuildDate=2026-04-28T15:50:41Z (unchanged). No new GH changelog entries since Apr 27."
+  "note": "Apr 29 (run 10): No new GH changelog entries (RSS lastBuildDate=2026-04-28T15:50:41Z unchanged). VS Code 1.118 Insiders last updated Apr 27 (unchanged). Issue #17 already up to date. Noop."
 }
