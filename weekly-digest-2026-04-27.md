@@ -1,10 +1,11 @@
 # Weekly Digest: April 27 – May 3, 2026
 
 **Issue**: #17  
-**Status**: Updated Apr 29 (run 11) — VS Code 1.118 went Stable today
+**Status**: Updated Apr 30 (run 16) — Added VS April update
 
 ## GitHub Changelog Entries (Covered)
 
+- **GitHub Copilot in Visual Studio — April update** (Apr 30) — Cloud agent integration, Debugger agent, user-level custom agents in %USERPROFILE%/.github/agents/, expanded skill discovery (.claude/skills/, .agents/skills/), customizable keyboard shortcuts, chat history panel, C++ tools GA, auto-decode text visualizer.
 - **GPT-5.5 GA for Copilot** (Apr 24) — 7.5× premium multiplier; all IDEs.
 - **Copilot Chat improvements for PRs** (Apr 23) — Better PR understanding, diff-hunk chat, immersive review.
 - **JetBrains: Inline agent mode + NES + auto-approve** (Apr 24) — Public preview.
@@ -16,9 +17,9 @@
 
 ## VS Code
 
-- **1.118 Stable** (Apr 29): Remote Copilot CLI control (experimental), synced session titles, git AI co-authoring default, semantic indexing for all workspaces, githubTextSearch tool, dedicated skill context (experimental), token efficiency suite (93%+ cache reuse, tool search tool now on GPT, agentic search/exec tools ~20% savings, WebSockets 12% faster), Chronicle (experimental), enterprise org policy, TS7 beta support, Chat Customizations Evaluation extension.
-- **Agents App** (Insiders): Claude agent, shared state with VS Code, web client at insiders.vscode.dev/agents, background browsers, layout controls, title bar switching.
+- **1.118.1 Stable** (Apr 29): Remote Copilot CLI control (experimental), synced session titles, git AI co-authoring default, semantic indexing for all workspaces, githubTextSearch tool, dedicated skill context (experimental, context:fork in SKILL.md), workspace .mcp.json support, token efficiency suite (93%+ cache reuse, tool search now on GPT-5.4/5.5, agentic search/exec tools ~20% savings, WebSockets 12% faster), Chronicle (experimental), enterprise org policy (ChatApprovedAccountOrganizations), sandboxed read permissions, TS7 beta support, Chat Customizations Evaluation extension.
+- **Agents App** (Insiders): Claude agent, shared state with VS Code, web client at insiders.vscode.dev/agents, background browsers, layout controls, dynamic title bar switching.
 
 ## Next Run
 
-Watch for: June 1 code review billing, new changelog entries post-Apr 28, VS Code 1.119 Insiders features.
+Watch for: June 1 code review billing, new changelog entries post-Apr 30, VS Code 1.119 Insiders features.
