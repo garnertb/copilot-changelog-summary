@@ -4,12 +4,12 @@
   "issue_created": true,
   "issue_number": 17,
   "issue_title": "Weekly Copilot Summary – April 27, 2026 - May 3, 2026",
-  "v": "1.118",
+  "v": "1.118.1",
   "vscode_stable_released": "2026-04-29",
   "vscode_insiders": "1.119",
   "vscode_insiders_last_updated": "2026-04-29",
   "gh_rss_lastBuildDate": "2026-04-29T17:26:27Z",
-  "d": 14,
+  "d": 15,
   "urls": [
     "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
     "https://github.blog/changelog/2026-04-24-notice-about-upcoming-new-format-for-github-app-installation-tokens",
@@ -20,5 +20,5 @@
     "https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026",
     "https://github.blog/changelog/2026-04-27-copilot-student-gpt-5-3-codex-removal-from-model-picker"
   ],
-  "note": "Apr 30 (run 14): No new GH changelog entries (RSS lastBuildDate still 2026-04-29T17:26:27Z, same 8 items). VS Code 1.118.1 is a patch release with no new AI features. Issue #17 is current and complete."
+  "note": "Apr 30 (run 15): No new GH changelog entries (RSS lastBuildDate still 2026-04-29T17:26:27Z, same 8 items). VS Code 1.118.1 is a patch release with no new AI features. Issue #17 is current and complete."
 }
