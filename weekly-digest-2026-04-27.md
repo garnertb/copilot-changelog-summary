@@ -1,7 +1,7 @@
 # Weekly Digest: April 27 – May 3, 2026
 
 **Issue**: #17  
-**Status**: Updated Apr 30 (run 16) — Added VS April update
+**Status**: Updated May 1 (run 17) — Added VS Code 1.119 Insiders features
 
 ## GitHub Changelog Entries (Covered)
 
@@ -19,7 +19,8 @@
 
 - **1.118.1 Stable** (Apr 29): Remote Copilot CLI control (experimental), synced session titles, git AI co-authoring default, semantic indexing for all workspaces, githubTextSearch tool, dedicated skill context (experimental, context:fork in SKILL.md), workspace .mcp.json support, token efficiency suite (93%+ cache reuse, tool search now on GPT-5.4/5.5, agentic search/exec tools ~20% savings, WebSockets 12% faster), Chronicle (experimental), enterprise org policy (ChatApprovedAccountOrganizations), sandboxed read permissions, TS7 beta support, Chat Customizations Evaluation extension.
 - **Agents App** (Insiders): Claude agent, shared state with VS Code, web client at insiders.vscode.dev/agents, background browsers, layout controls, dynamic title bar switching.
+- **1.119 Insiders** (last updated Apr 30): Browser tab context attachment in chat, agent browser tab permission dialog, Copilot CLI plan mode in AHP, external ingest indexing in virtual file systems.
 
 ## Next Run
 
-Watch for: June 1 code review billing, new changelog entries post-Apr 30, VS Code 1.119 Insiders features.
+Watch for: June 1 code review billing, new changelog entries post-Apr 30, VS Code 1.119 stable release ~May 6.
