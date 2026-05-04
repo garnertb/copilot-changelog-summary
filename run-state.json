@@ -1,26 +1,17 @@
 {
-  "r": "2026-05-01",
-  "w": "2026-04-27/2026-05-03",
+  "r": "2026-05-04",
+  "w": "2026-05-04/2026-05-10",
   "issue_created": true,
-  "issue_number": 17,
-  "issue_title": "Weekly Copilot Summary – April 27, 2026 - May 3, 2026",
+  "issue_number": null,
+  "issue_title": "Weekly Copilot Summary – May 4, 2026 - May 10, 2026",
   "v": "1.118.1",
   "vscode_stable_released": "2026-04-29",
   "vscode_insiders": "1.119",
   "vscode_insiders_last_updated": "2026-04-30",
-  "gh_rss_lastBuildDate": "2026-04-30T15:00:18Z",
-  "d": 17,
-  "urls": [
-    "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
-    "https://github.blog/changelog/2026-04-24-notice-about-upcoming-new-format-for-github-app-installation-tokens",
-    "https://github.blog/changelog/2026-04-24-inline-agent-mode-in-preview-and-more-in-github-copilot-for-jetbrains-ides",
-    "https://github.blog/changelog/2026-04-23-copilot-chat-improvements-for-pull-requests",
-    "https://github.blog/changelog/2026-04-23-copilot-cloud-agent-fields-added-to-usage-metrics",
-    "https://github.blog/changelog/2026-04-27-copilot-cloud-agent-starts-20-faster-with-actions-custom-images",
-    "https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026",
-    "https://github.blog/changelog/2026-04-27-copilot-student-gpt-5-3-codex-removal-from-model-picker",
-    "https://github.blog/changelog/2026-04-30-github-copilot-in-visual-studio-april-update"
-  ],
-  "note": "May 1 18:43 re-check: no new content. VS Code 1.119 insiders last updated Apr 30, RSS lastBuildDate Apr 30. Issue #17 already current.",
-  "last_check": "2026-05-01T18:43:32Z"
+  "vscode_119_stable_expected": "2026-05-06",
+  "gh_rss_lastBuildDate": "2026-05-01T21:30:57Z",
+  "d": null,
+  "urls": [],
+  "note": "May 4 initial run: No new GH changelog entries this week yet. VS Code 1.119 expected stable ~May 6. Issue created for week May 4-10.",
+  "last_check": "2026-05-04T01:13:31Z"
 }
