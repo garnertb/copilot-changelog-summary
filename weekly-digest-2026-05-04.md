@@ -1,11 +1,11 @@
 # Weekly Digest: May 4 – May 10, 2026
 
-**Issue**: TBD (created May 4)
-**Status**: Initial run — quiet start to week, no new changelog entries yet
+**Issue**: TBD (created May 4, second run)
+**Status**: Active — GPT-5.2 deprecation included; VS Code 1.119 expected stable May 6
 
 ## GitHub Changelog Entries (Covered)
 
-None yet this week (May 4). Week started today.
+- **Upcoming deprecation of GPT-5.2 and GPT-5.2-Codex** (May 1) — Both deprecated June 1, 2026. GPT-5.2 → GPT-5.5; GPT-5.2-Codex → GPT-5.3-Codex. Enterprise admins must enable alternative models in policy. Exception: GPT-5.2-Codex stays in Code Review past June 1.
 
 ## VS Code
 
@@ -15,7 +15,7 @@ None yet this week (May 4). Week started today.
 
 ## Key Reminders Highlighted
 
-- GPT-5.2 and GPT-5.2-Codex deprecated June 1, 2026
+- GPT-5.2 and GPT-5.2-Codex deprecated June 1, 2026 → switch to GPT-5.5 / GPT-5.3-Codex
 - Copilot code review consumes Actions minutes starting June 1, 2026
 
 ## Next Run
