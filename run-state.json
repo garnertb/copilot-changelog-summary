@@ -2,16 +2,16 @@
   "r": "2026-05-04",
   "w": "2026-05-04/2026-05-10",
   "issue_created": true,
-  "issue_number": null,
-  "issue_title": "Weekly Copilot Summary \u2013 May 4, 2026 - May 10, 2026",
+  "issue_number": 19,
+  "issue_title": "Weekly Copilot Summary – May 4, 2026 - May 10, 2026",
   "v": "1.118.1",
   "vscode_stable_released": "2026-04-29",
   "vscode_insiders": "1.119",
-  "vscode_insiders_last_updated": "2026-04-30",
+  "vscode_insiders_last_updated": "2026-05-03",
   "vscode_119_stable_expected": "2026-05-06",
   "gh_rss_lastBuildDate": "2026-05-01T21:30:57Z",
   "d": null,
   "urls": ["https://github.blog/changelog/2026-05-01-upcoming-deprecation-of-gpt-5-2-and-gpt-5-2-codex"],
-  "note": "May 4 second run: GPT-5.2 deprecation included. VS Code 1.119 expected stable May 6. Issue created (number TBD).",
-  "last_check": "2026-05-04T07:25:03Z"
+  "note": "May 4 third run: updated Insiders section with May 1-3 features (browser tools in AHP, model cost display, model picker UX, sandbox networking, Chronicle reindex). Issue #19 updated.",
+  "last_check": "2026-05-04T12:55:23Z"
 }
