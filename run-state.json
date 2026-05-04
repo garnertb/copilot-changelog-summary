@@ -12,6 +12,6 @@
   "gh_rss_lastBuildDate": "2026-05-01T21:30:57Z",
   "d": null,
   "urls": ["https://github.blog/changelog/2026-05-01-upcoming-deprecation-of-gpt-5-2-and-gpt-5-2-codex"],
-  "note": "May 4 third run: updated Insiders section with May 1-3 features (browser tools in AHP, model cost display, model picker UX, sandbox networking, Chronicle reindex). Issue #19 updated.",
-  "last_check": "2026-05-04T12:55:23Z"
+  "note": "May 4 fourth run: no new changelog entries, VS Code 1.119 Insiders unchanged (last May 3), 1.119 stable expected May 6. Issue #19 already up-to-date.",
+  "last_check": "2026-05-04T18:55:51Z"
 }

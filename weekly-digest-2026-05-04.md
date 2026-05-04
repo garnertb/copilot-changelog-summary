@@ -1,7 +1,7 @@
 # Weekly Digest: May 4 – May 10, 2026
 
 **Issue**: #19
-**Status**: Active — updated May 4 (third run)
+**Status**: Active — updated May 4 (fourth run, no new content)
 
 ## GitHub Changelog Entries (Covered)
 
@@ -9,9 +9,9 @@
 
 ## VS Code
 
-- **1.118.1 Stable** (Apr 29): Already covered in issue #17 and referenced here.
-- **1.119 Insiders** (last updated May 3): April 29: browser tab context, agent browser tab permissions, CLI plan mode, external ingest indexing. May 1: browser tools in Agent Host sessions, show actual model cost. May 2: model picker UX refresh. May 3: sandbox networking mode, Chronicle reindexing command.
-- **1.119 Stable expected ~May 6** per VS Code feed.
+- **1.118.1 Stable** (Apr 29): Covered in issue #19.
+- **1.119 Insiders** (last updated May 3): Apr 29: browser tab context, agent browser tab permissions, CLI plan mode, external ingest indexing. May 1: browser tools in Agent Host sessions, show actual model cost. May 2: model picker UX refresh. May 3: sandbox networking mode, Chronicle reindexing command.
+- **1.119 Stable expected May 6** per VS Code feed.
 
 ## Key Reminders Highlighted
 
