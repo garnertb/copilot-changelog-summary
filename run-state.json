@@ -7,11 +7,14 @@
   "v": "1.118.1",
   "vscode_stable_released": "2026-04-29",
   "vscode_insiders": "1.119",
-  "vscode_insiders_last_updated": "2026-05-03",
+  "vscode_insiders_last_updated": "2026-05-05",
   "vscode_119_stable_expected": "2026-05-06",
-  "gh_rss_lastBuildDate": "2026-05-01T21:30:57Z",
+  "gh_rss_lastBuildDate": "2026-05-05T14:54:28Z",
   "d": null,
-  "urls": ["https://github.blog/changelog/2026-05-01-upcoming-deprecation-of-gpt-5-2-and-gpt-5-2-codex"],
-  "note": "May 5 seventh run (12:47 UTC): no new changelog entries (RSS lastBuildDate unchanged at May 1). VS Code 1.119 still Insiders (notes last updated May 3); stable expected May 6 per feed (feed entry dated 2026-05-06T17:00:00Z). Issue #19 already up-to-date.",
-  "last_check": "2026-05-05T12:47:22Z"
+  "urls": [
+    "https://github.blog/changelog/2026-05-01-upcoming-deprecation-of-gpt-5-2-and-gpt-5-2-codex",
+    "https://github.blog/changelog/2026-05-05-code-to-cloud-risk-visibility-with-microsoft-defender-for-cloud-is-now-generally-available"
+  ],
+  "note": "May 5 eighth run (18:50 UTC): new RSS entries found (code-to-cloud GA, May 5). VS Code 1.119 Insiders updated to May 5 with May 4 items (model badge, git-driven Changes view, action buttons). Updated issue #19.",
+  "last_check": "2026-05-05T18:50:30Z"
 }
