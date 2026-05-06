@@ -1,7 +1,7 @@
 # Weekly Digest: May 4 – May 10, 2026
 
 **Issue**: #19
-**Status**: Active — updated May 6 (ninth run)
+**Status**: Active — updated May 6 (tenth run, VS Code 1.119 stable released)
 
 ## GitHub Changelog Entries (Covered)
 
@@ -12,16 +12,24 @@
 
 ## VS Code
 
-- **1.118.1 Stable** (Apr 29): Covered in issue #19.
-- **1.119 Insiders** (last updated May 5): Apr 29: browser tab context, agent browser tab permissions, CLI plan mode, external ingest indexing. May 1: browser tools in AHP, show actual model cost. May 2: model picker UX refresh. May 3: sandbox networking mode, Chronicle reindexing command. May 4: model badge on CLI responses, git-driven Changes view in agent host sessions, action buttons in agent host sessions.
-- **1.119 Stable expected May 6** per VS Code feed (17:00 UTC).
+- **1.119.0 Stable** (May 6, 2026 — RELEASED TODAY): Full release notes available. Key features:
+  - Sharing browser tabs with agents (agents can request/use integrated browser)
+  - OpenTelemetry tracing for agent sessions (github.copilot.chat.otel.enabled)
+  - Model details badge on Copilot CLI/Claude agent responses
+  - Optimized token usage via background todo agent (experimental)
+  - Usage-based billing UI prep (June 1 transition)
+  - allowNetwork sandbox mode for agent sandboxes
+  - Auto-approve temp folder writes
+  - VS Code Agents (Insiders) updates: redesigned repo picker, sub-session improvements
+  - TypeScript 7 for Copilot extension (typecheck: 22s → 4s)
+  - Edit Mode fully removed at 1.125
 
 ## Key Reminders Highlighted
 
 - GPT-5.2 and GPT-5.2-Codex deprecated June 1, 2026 → switch to GPT-5.5 / GPT-5.3-Codex
 - Copilot code review starts consuming Actions minutes June 1
-- VS Code 1.119 stable expected May 6
+- Usage-based billing for Copilot starts June 1
 
 ## Next Run
 
-Watch for: VS Code 1.119 stable release notes (May 6, expected 17:00 UTC), new GitHub changelog entries.
+Watch for: new GitHub changelog entries for rest of week.
