@@ -1,7 +1,7 @@
 # Weekly Digest: May 4 – May 10, 2026
 
 **Issue**: #19
-**Status**: Active — updated May 6 (tenth run, VS Code 1.119 stable released)
+**Status**: Active — updated May 7 (thirteenth run, new VS Code April changelog + enterprise plugins entries added)
 
 ## GitHub Changelog Entries (Covered)
 
@@ -9,20 +9,12 @@
 - **Code-to-cloud risk visibility with Microsoft Defender for Cloud GA** (May 5) — GA of Defender+GHA integration. Copilot coding agent can be assigned security campaigns from the campaign view.
 - **Secret scanning with GitHub MCP Server is now GA** (May 5, 22:04 UTC) — GA for repos with GitHub Secret Protection enabled. Honors push protection customization. Get started with /plugin install advanced-security@copilot-plugins in Copilot CLI.
 - **Dependency scanning with GitHub MCP Server is in public preview** (May 5, 20:45 UTC) — `dependabot` toolset in GitHub MCP Server; checks GitHub Advisory Database; can also run Dependabot CLI locally. Requires Dependabot alerts enabled.
+- **GitHub Copilot in Visual Studio Code, April releases** (May 6, 17:55 UTC) — Official monthly VS Code Copilot changelog covering v1.116–v1.119. Key: semantic search, /chronicle, BYOK model support, browser integration, cross-device CLI sessions, diff-in-chat.
+- **Enterprise-managed plugins in GitHub Copilot CLI are now in public preview** (May 6, 22:20 UTC) — Admins define plugin marketplaces via .github-private settings.json; auto-distributed to all Business/Enterprise users.
 
 ## VS Code
 
-- **1.119.0 Stable** (May 6, 2026 — RELEASED TODAY): Full release notes available. Key features:
-  - Sharing browser tabs with agents (agents can request/use integrated browser)
-  - OpenTelemetry tracing for agent sessions (github.copilot.chat.otel.enabled)
-  - Model details badge on Copilot CLI/Claude agent responses
-  - Optimized token usage via background todo agent (experimental)
-  - Usage-based billing UI prep (June 1 transition)
-  - allowNetwork sandbox mode for agent sandboxes
-  - Auto-approve temp folder writes
-  - VS Code Agents (Insiders) updates: redesigned repo picker, sub-session improvements
-  - TypeScript 7 for Copilot extension (typecheck: 22s → 4s)
-  - Edit Mode fully removed at 1.125
+- **1.119.0 Stable** (May 6, 2026): Browser tab sharing with agents, OTel tracing, model details badge, background todo agent (experimental), allowNetwork sandbox mode, auto-approve /tmp writes, TypeScript 7 for Copilot extension (22s→4s typecheck).
 
 ## Key Reminders Highlighted
 

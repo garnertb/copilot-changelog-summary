@@ -1,5 +1,5 @@
 {
-  "r": "2026-05-06",
+  "r": "2026-05-07",
   "w": "2026-05-04/2026-05-10",
   "issue_created": true,
   "issue_number": 19,
@@ -7,14 +7,16 @@
   "v": "1.119.0",
   "vscode_stable_released": "2026-05-06",
   "vscode_insiders": "1.120",
-  "gh_rss_lastBuildDate": "2026-05-06T15:37:15Z",
+  "gh_rss_lastBuildDate": "2026-05-06T22:25:58Z",
   "d": null,
   "urls": [
     "https://github.blog/changelog/2026-05-01-upcoming-deprecation-of-gpt-5-2-and-gpt-5-2-codex",
     "https://github.blog/changelog/2026-05-05-code-to-cloud-risk-visibility-with-microsoft-defender-for-cloud-is-now-generally-available",
     "https://github.blog/changelog/2026-05-05-secret-scanning-with-github-mcp-server-is-now-generally-available",
-    "https://github.blog/changelog/2026-05-05-dependency-scanning-with-github-mcp-server-is-in-public-preview"
+    "https://github.blog/changelog/2026-05-05-dependency-scanning-with-github-mcp-server-is-in-public-preview",
+    "https://github.blog/changelog/2026-05-06-github-copilot-in-visual-studio-code-april-releases",
+    "https://github.blog/changelog/2026-05-06-enterprise-managed-plugins-in-github-copilot-cli-are-now-in-public-preview"
   ],
-  "note": "May 6 twelfth run (18:56 UTC): No new Copilot/AI-related GitHub changelog entries since last run. VS Code 1.119.0 already processed. Issue #19 is current.",
-  "last_check": "2026-05-06T18:56:00Z"
+  "note": "May 7 thirteenth run (01:12 UTC): Added 2 new entries: VS Code April releases + enterprise plugins for Copilot CLI. Updated issue #19.",
+  "last_check": "2026-05-07T01:12:00Z"
 }
