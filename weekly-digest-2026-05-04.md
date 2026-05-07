@@ -1,7 +1,7 @@
 # Weekly Digest: May 4 – May 10, 2026
 
 **Issue**: #19
-**Status**: Active — updated May 7 (thirteenth run, new VS Code April changelog + enterprise plugins entries added)
+**Status**: Active — updated May 7 (fourteenth run, added VS Code 1.120 Insiders content)
 
 ## GitHub Changelog Entries (Covered)
 
@@ -14,7 +14,8 @@
 
 ## VS Code
 
-- **1.119.0 Stable** (May 6, 2026): Browser tab sharing with agents, OTel tracing, model details badge, background todo agent (experimental), allowNetwork sandbox mode, auto-approve /tmp writes, TypeScript 7 for Copilot extension (22s→4s typecheck).
+- **1.119.0 Stable** (May 6, 2026): Browser tab sharing with agents, OTel tracing, model details badge, background todo agent (experimental), allowNetwork sandbox mode, auto-approve /tmp writes.
+- **1.120 Insiders** (May 4-6): Agent host terminals respect preferred shell, restore copy in chat edit suggestions, hide archived sessions by default, custom snooze duration, customDiffEditorProvider proposed API.
 
 ## Key Reminders Highlighted
 
