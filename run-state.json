@@ -7,7 +7,7 @@
   "v": "1.119.0",
   "vscode_stable_released": "2026-05-06",
   "vscode_insiders": "1.120",
-  "gh_rss_lastBuildDate": "2026-05-06T22:25:58Z",
+  "gh_rss_lastBuildDate": "2026-05-07T14:50:19Z",
   "d": null,
   "urls": [
     "https://github.blog/changelog/2026-05-01-upcoming-deprecation-of-gpt-5-2-and-gpt-5-2-codex",
@@ -15,9 +15,10 @@
     "https://github.blog/changelog/2026-05-05-secret-scanning-with-github-mcp-server-is-now-generally-available",
     "https://github.blog/changelog/2026-05-05-dependency-scanning-with-github-mcp-server-is-in-public-preview",
     "https://github.blog/changelog/2026-05-06-github-copilot-in-visual-studio-code-april-releases",
-    "https://github.blog/changelog/2026-05-06-enterprise-managed-plugins-in-github-copilot-cli-are-now-in-public-preview"
+    "https://github.blog/changelog/2026-05-06-enterprise-managed-plugins-in-github-copilot-cli-are-now-in-public-preview",
+    "https://github.blog/changelog/2026-05-07-rubber-duck-in-github-copilot-cli-now-supports-more-models"
   ],
-  "note": "May 7 fifteenth run (13:00 UTC): No new GitHub Changelog entries (RSS lastBuildDate unchanged from 2026-05-06T22:25:58Z). Full digest compiled with VS Code 1.119.0 stable (May 6) content. safe-output MCP blocked by policy AND safe-output file is read-only - issue #19 update could not be pushed.",
-  "pending_update": true,
-  "last_check": "2026-05-07T13:00:54Z"
+  "note": "May 7 sixteenth run (18:57 UTC): New entry added - Rubber Duck in GitHub Copilot CLI now supports more models (May 7). Issue #19 updated.",
+  "pending_update": false,
+  "last_check": "2026-05-07T18:57:00Z"
 }
