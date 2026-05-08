@@ -1,10 +1,11 @@
 # Weekly Digest: May 4 – May 10, 2026
 
 **Issue**: #19
-**Status**: Active — compiled May 8 (nineteenth run, 12:50 UTC); full digest with all entries through May 8; safeoutputs MCP unavailable
+**Status**: Active — compiled May 8 (final run, ~17:00 UTC); full digest with all entries through May 8; issue updated via safeoutputs
 
 ## GitHub Changelog Entries (Covered)
 
+- **More flexible secrets and variables for Copilot cloud agent** (May 8) — Organization-level Agents secrets/variables; no longer per-repo only. NEW in this run.
 - **Upcoming deprecation of GPT-5.2 and GPT-5.2-Codex** (May 1) — Both deprecated June 1, 2026. GPT-5.2 → GPT-5.5; GPT-5.2-Codex → GPT-5.3-Codex. Exception: GPT-5.2-Codex stays in Code Review past June 1.
 - **Code-to-cloud risk visibility with Microsoft Defender for Cloud GA** (May 5) — GA of Defender+GHA integration. Runtime context filters. Copilot coding agent can be assigned security campaigns directly.
 - **Secret scanning with GitHub MCP Server is now GA** (May 5) — GA for repos with GitHub Secret Protection enabled.
@@ -17,7 +18,7 @@
 
 ## VS Code
 
-- **1.119.0 Stable** (May 6, 2026): Browser tab sharing, BYOK for Business/Enterprise, semantic search all workspaces, /chronicle, OTel tracing, background todo agent, model details badge. VS Code Agents (Insiders): redesigned repo picker, sub-session fixes, mobile polish.
+- **1.119.0 Stable** (May 6, 2026): Browser tab sharing, BYOK for Business/Enterprise, semantic search all workspaces, /chronicle, OTel tracing, background todo agent, model details badge, sandbox allowNetwork mode. VS Code Agents (Insiders): redesigned repo picker, sub-session fixes, mobile polish.
 - **1.120 Insiders**: VS Code Agents improvements (repo picker, sub-session fixes, mobile), agent terminals respect preferred shell, restore copy in chat edits, hide archived sessions, custom snooze, customDiffEditorProvider API.
 
 ## Key Reminders
