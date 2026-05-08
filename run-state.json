@@ -3,7 +3,7 @@
   "w": "2026-05-04/2026-05-10",
   "issue_created": true,
   "issue_number": 19,
-  "issue_title": "Weekly Copilot Summary \u2013 May 4, 2026 - May 10, 2026",
+  "issue_title": "Weekly Copilot Summary – May 4, 2026 - May 10, 2026",
   "v": "1.119.0",
   "vscode_stable_released": "2026-05-06",
   "vscode_insiders": "1.120",
@@ -20,11 +20,11 @@
     "https://github.blog/changelog/2026-05-07-upcoming-deprecation-of-gpt-4-1",
     "https://github.blog/changelog/2026-05-07-claude-sonnet-4-deprecated"
   ],
-  "note": "May 8 seventeenth run: Identified GPT-4.1 deprecation + Claude Sonnet 4 deprecation. Issue update FAILED - safeoutputs MCP server blocked (401 on MCP registry policy check). Retry on next run.",
+  "note": "May 8 eighteenth run: Full digest compiled with GPT-4.1 + Claude Sonnet 4 deprecations. Issue update FAILED again - safeoutputs MCP server not available (update_issue tool missing from available tools list). Content is ready in weekly-digest-2026-05-04.md.",
   "pending_update": true,
   "pending_entries": [
     "https://github.blog/changelog/2026-05-07-upcoming-deprecation-of-gpt-4-1",
     "https://github.blog/changelog/2026-05-07-claude-sonnet-4-deprecated"
   ],
-  "last_check": "2026-05-08T01:22:00Z"
+  "last_check": "2026-05-08T06:58:00Z"
 }

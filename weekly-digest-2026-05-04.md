@@ -1,7 +1,7 @@
 # Weekly Digest: May 4 – May 10, 2026
 
 **Issue**: #19
-**Status**: Active — compiled May 8 (seventeenth run, 01:12 UTC); added GPT-4.1 + Claude Sonnet 4 deprecation entries
+**Status**: Active — compiled May 8 (eighteenth run, 06:58 UTC); full digest with GPT-4.1 + Claude Sonnet 4 deprecations; MCP update_issue unavailable
 
 ## GitHub Changelog Entries (Covered)
 
@@ -17,8 +17,8 @@
 
 ## VS Code
 
-- **1.119.0 Stable** (May 6, 2026): Browser tab sharing, BYOK for Business/Enterprise, semantic search all workspaces, /chronicle, OTel tracing, background todo agent, allowNetwork sandbox, usage-based billing UI.
-- **1.120 Insiders** (May 4+): Agent host terminals respect preferred shell, restore copy in chat edit suggestions, hide archived sessions by default, custom snooze duration, customDiffEditorProvider proposed API.
+- **1.119.0 Stable** (May 6, 2026): Browser tab sharing, BYOK for Business/Enterprise, semantic search all workspaces, /chronicle, OTel tracing, background todo agent, allowNetwork sandbox, usage-based billing UI prep. Edit Mode deprecated (since 1.110, removed in 1.125).
+- **1.120 Insiders** (May 4+): VS Code Agents improvements (redesigned repo picker, sub-session fixes, mobile polish, progress UX), agent host terminals respect preferred shell, restore copy in chat edit suggestions, hide archived sessions by default, custom snooze duration, customDiffEditorProvider proposed API.
 
 ## Key Reminders
 
@@ -28,4 +28,4 @@
 
 ## Next Run
 
-Watch for: new GitHub changelog entries for rest of week (Fri–Sun May 8-10); any VS Code 1.120 Insiders updates.
+Watch for: new GitHub changelog entries for Fri–Sun May 8-10; any VS Code 1.120 Insiders updates.
